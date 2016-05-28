@@ -1,0 +1,17 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: jorge rangel
+email: jarg1985[at]gmail[dot]com
+description: > # this is my blog.
+url: "http://www.jrangel.net" # the base hostname & protocol for your site
+twitter_username: jarxg
+github_username:  jarxg
+
+# Build settings
+markdown: kramdown
