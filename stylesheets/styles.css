@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 'Verdana', sans-serif;
+  font: 14px/1.5 'Helvetica Neue', Arial, sans-serif;
   color:#000;
   font-weight:400;
 }
@@ -219,7 +219,7 @@ footer {
   }
 
   header ul {
-
+    position:absolute;
     right:50px;
     top:52px;
   }
