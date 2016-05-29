@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>jorge rangel – super 8 tv</title>
+    <link rel="stylesheet" href="stylesheets/s8.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script>
+    var videos = [
+      "https://www.youtube.com/embed/rnDnyjE2pI8",
+      "https://www.youtube.com/embed/q3QA2Uqm4vA",
+      "https://www.youtube.com/embed/5t1YwgW2ksk",
+      "https://www.youtube.com/embed/nZojkq88CYc",
+      "https://www.youtube.com/embed/g0c0aFvxTR8",
+      "https://www.youtube.com/embed/jEpLuaDnLe0",
+      "https://www.youtube.com/embed/0QwTMr3tAb8",
+      "https://www.youtube.com/embed/R0ArYWHbhAk"
+    ];
+    window.onload = function () {
+        var playerDiv = document.getElementById("random_player");
+        var player = document.createElement("IFRAME");
+        var randomVideoUrl = videos[Math.floor(Math.random() * videos.length)];
+        player.setAttribute('width', '640');
+        player.setAttribute('height', '390');
+        player.setAttribute('src', randomVideoUrl);
+        playerDiv.appendChild(player);
+    };
+    </script>
+
+  </head>
+
+  <body>
+
+    <h1>jorge rangel – super 8 tv</h1>
+
+    <p>
+      <div style="text-align: center;" id="random_player"></div>
+    </p>
+
+    <hr>
+
+    <p>
+      <a href="javascript:history.go(0)">otro video / another video</a><br>
+      <a href="index.html">regresar / go back...</a>
+    </p>
+
+    <hr>
+
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+
+  </body>
+</html>
