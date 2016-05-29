@@ -7,5 +7,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #222;
+  color: #234;
+}
+
+a {
+  text-decoration: none;
+  color: #48f;
+}
+a:hover {
+	text-decoration: none;
+	color: #248;
 }
