@@ -30,12 +30,12 @@ hr {
 .section {
     width: 100%;
 }
-.left-col {
-    width: 50%;
-    float: left;
+.section2col {
+    width: 100%;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 5%; /* Chrome, Safari, Opera */
+    -moz-column-gap: 5%; /* Firefox */
+    column-gap: 5%;
 }
-.right-col {
-    width: 50%;
-    float: right;
-}
-.headfoot {}
