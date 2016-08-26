@@ -1,0 +1,10 @@
+# Site settings
+title: jorge rangel
+tag_text: jorge rangel
+description: jorge rangel personal page
+
+# Build settings
+markdown: kramdown
+exclude: ["README.md"]
+sass:
+  style: compressed
