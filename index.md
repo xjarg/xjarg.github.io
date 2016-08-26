@@ -2,18 +2,29 @@
 layout: default
 ---
 
-hago cosas con computadoras: imágenes, sonidos, video y texto.  
-i make stuff with computers: images, sounds, video and text.
+hago cosas con computadoras:  
+imágenes, sonidos, video y texto.
 
-[bio](#bio) | [setup](#setup) | [links](#links)
+i make stuff with computers:  
+images, sounds, video and text.
 
-[music](#music) | [super 8 tv](super8tv.html) | [twine](#twine) | [pakistán records](http://pakistan-records.tumblr.com)
+[bio](#bio) \|
+[music](#music) \|
+[twine](#twine) \|
+[setup](#setup) \|
+[links](#links)  
 
-[twitter](https://twitter.com/jarxg) | [instagram](https://instagram.com/jarxg) | [youtube](https://www.youtube.com/jarbear) | [github](https://github.com/jarxg) | [goodreads](https://www.goodreads.com/user/show/3606456-jorge)
+[super 8 tv](super8tv.html)  
 
-------------------------------------------------------------------------
+[twitter](https://twitter.com/jarxg) \|
+[instagram](https://instagram.com/jarxg) \|
+[youtube](https://www.youtube.com/jarbear) \|
+[github](https://github.com/jarxg) \|
+[goodreads](https://www.goodreads.com/user/show/3606456-jorge)
 
-## bio
+---
+
+## bio
 
 Región Carbonífera de Coahuila, México, 1985.
 
@@ -27,9 +38,9 @@ Su obra reflexiona acerca del papel de la memoria y la nostalgia en la creación
 Sound artist, videomaker, and independent cultural promoter. He has colaborated with writers, filmmakers, visual artists, dramatists, dancers, conceptual artists, among others. He earned a PECDA Coahuila fellowship in 2015 in the "jóvenes creadores" category in the digital arts area.  
 His work ponders on the role of memory and nostalgia in artistic creation, the use of new technologies, the materiality of cybernetic spaces, and questions the limits that define the authoral figure.
 
-------------------------------------------------------------------------
+---
 
-## music
+## music
 
 ### LPs
 
@@ -71,13 +82,13 @@ His work ponders on the role of memory and nostalgia in artistic creation, the u
 
 [あなたは誰 EP](http://music.jrangel.net/album/ep)  
 
-------------------------------------------------------------------------
+---
 
 ## twine
 
 [lecture on nothing](twine/nothing.html)
 
-------------------------------------------------------------------------
+---
 
 ## setup
 
@@ -95,11 +106,10 @@ For drawing I use mostly sharpies and a variety of stylographs and pencils, usua
 I read on a [Kindle](https://www.amazon.com/Kindle-Ereader-ebook-reader/dp/B007HCCNJU/) and get my e-books exclusively from DRM-free distributors.  
 Sometimes I take photos and shot video with a not-so-fancy-but-reliable Fujifilm super-zoom camera.
 
-### And what software?
+### And what software?
 
 For music and sound I use [Ableton Live 9](https://www.ableton.com), mainly. Sometimes I also use [SunVox](http://www.warmplace.ru/soft/sunvox/) (on both macOS and iOS), [GarageBand](http://www.apple.com/mac/garageband/) (also on macOS and iOS), [Reaper](http://www.reaper.fm) and [Max](https://cycling74.com). I’m trying to learn [Supercollider](http://supercollider.github.io).  
 For visual and multimedia art I use a variety of tools: [Processing](https://processing.org) for generative visuals and image glitching; Max for processing images and video using Vizzie; [Pixelmator](http://www.pixelmator.com/mac/) for image editing; [Final Cut Pro](https://www.apple.com/final-cut-pro/) and [iMovie](https://www.apple.com/mac/imovie/) for video editing, depending on the complexity of the task at hand. I'm currently getting into [Quartz Composer](https://en.wikipedia.org/wiki/Quartz_Composer), it's really cool.  
-
 I write HTML in [Atom](https://atom.io) and upload it to [GitHub](https://github.com).  
 I use [the default apps that come with a Mac](http://www.apple.com/osx/apps/): I write on Pages and sometimes Text Edit, check my email accounts on Mail, get organized with Calendar and Reminders. I organize my photos on Photos and listen to music and podcasts on iTunes. I sync everything with iCloud. The integration with Mac OS X and iOS makes using these apps a no-brainer for me. I use QuickTime to capture screencasts.  
 I keep a journal on [Day One](http://dayoneapp.com), which I love.  
@@ -113,7 +123,7 @@ Other than that, I’m fine, but if my whims were to be satisfied I want a [Laun
 I would LOVE to have a [Teenage Engineering OP-1](https://www.teenageengineering.com/products/op-1).  
 But yeah, I’m doing fine right now. Oh, I remember one thing: I desperately need a pair of good quality headphones.
 
-------------------------------------------------------------------------
+---
 
 ## links
 
@@ -123,6 +133,7 @@ But yeah, I’m doing fine right now. Oh, I remember one thing: I desperately ne
 [Runme.org](http://runme.org)  
 [UbuWeb](http://ubu.com)
 
-------------------------------------------------------------------------
+---
 
-[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
+theme: [Solo](http://chibicode.github.io/solo/)
