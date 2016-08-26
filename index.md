@@ -13,7 +13,7 @@ i make stuff with computers: images, sounds, video and text.
 
 ------------------------------------------------------------------------
 
-## Bio
+## bio
 
 Región Carbonífera de Coahuila, México, 1985.
 
