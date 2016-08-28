@@ -2,6 +2,32 @@
 layout: default
 ---
 
+<!--
+
+   ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____
+  ||w |||w |||w |||. |||j |||r |||a |||n |||g |||e |||l |||. |||n |||e |||t ||
+  ||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__||
+  |/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+CC BY-NA-SA 4.0
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+'In the plagiaristic environment of the Net, where anyone can clone any web
+site, the artist's URL is the only guarantor that one is viewing the "original",
+most up-to-date and uncompromised version of the work.'
+––Greene, R. (2004). Internet art. New York, NY: Thames & Hudson.
+
+# To Do:
+
+– Image gallery
+– Video gallery
+– Proyect repositories
+
+-->
+
 hago cosas con computadoras:  
 imágenes, sonidos, video y texto.
 
@@ -14,7 +40,7 @@ images, sounds, video and text.
 [setup](#setup) \|
 [links](#links)  
 
-[super 8 tv](super8tv.html)  
+[super 8 tv](super8tv.html)
 
 [twitter](https://twitter.com/jarxg) \|
 [instagram](https://instagram.com/jarxg) \|
@@ -82,6 +108,10 @@ His work ponders on the role of memory and nostalgia in artistic creation, the u
 
 [あなたは誰 EP](http://music.jrangel.net/album/ep)  
 
+### with Los Decadentes de Linares
+
+[Schippers Straat](http://music.jrangel.net/album/schippers-straat)
+
 ---
 
 ## twine
@@ -100,11 +130,11 @@ I am Jorge Rangel and I’m a musician, visual artist, multimedia artist and wri
 
 ### What hardware do you use?
 
-I use a [MacBook Pro 13” 2012 non-Retina](http://www.everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i5-2.5-13-mid-2012-unibody-usb3-specs.html) which I got because it’s so much more upgradeable than any other currently available model. I have an [iPod touch 5](http://www.apple.com/es/ipod-touch/) which I use to take pictures, shoot video and sketch music. I just got my first smartphone, a [Samsung J3](http://www.gsmarena.com/samsung_galaxy_j3_(2016)-7760.php) that has a beautiful AMOLED screen and which I use to stay connected 24/7, something I resisted for years.  
+I use a [MacBook Pro 13” 2012 non-Retina](http://www.everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i5-2.5-13-mid-2012-unibody-usb3-specs.html) which I got because it’s so much more upgradeable than any other currently available model. I have an [iPod touch 5](http://www.apple.com/es/ipod-touch/) which I use to take pictures, shoot video and sketch music. I just got my first smartphone, a [Samsung J3](http://www.gsmarena.com/samsung_galaxy_j3_(2016)-7760.php) that has a beautiful AMOLED screen and Android Lollypop. I use it to stay connected 24/7, something I resisted for years.  
 For music and sound production I use a [Focusrite Scarlett 2i2](https://us.focusrite.com/usb-audio-interfaces/scarlett-2i2) interface and the [Novation Launchpad Mini](https://global.novationmusic.com/launch/launchpad-mini). I love them both. When I play live (and I rarely do that anymore) I use a [Line 6 FBV Express MkII](http://line6.com/footcontrollers/fbvexpressmkii.html/) foot MIDI controller. I also have a cheap Silvertone Strat-clone-gone-wrong which is enough for me.  
 For drawing I use mostly sharpies and a variety of stylographs and pencils, usually on Moleskines, sketchpads or index cards.  
 I read on a [Kindle](https://www.amazon.com/Kindle-Ereader-ebook-reader/dp/B007HCCNJU/) and get my e-books exclusively from DRM-free distributors.  
-Sometimes I take photos and shot video with a not-so-fancy-but-reliable Fujifilm super-zoom camera.
+Sometimes I take photos and shot video with a not-so-fancy-but-reliable Fujifilm super-zoom camera.  
 
 ### And what software?
 
@@ -128,6 +158,7 @@ But yeah, I’m doing fine right now. Oh, I remember one thing: I desperately ne
 ## links
 
 [Arts & Letters Daily](http://www.aldaily.com)  
+[FileChef](http://www.filechef.com)  
 [Longform](http://longform.org)  
 [Reddit](https://www.reddit.com)  
 [Runme.org](http://runme.org)  
@@ -136,4 +167,4 @@ But yeah, I’m doing fine right now. Oh, I remember one thing: I desperately ne
 ---
 
 [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
-theme: [Solo](http://chibicode.github.io/solo/)
+theme: [Solo](http://chibicode.github.io/solo/) with modifications by me.
