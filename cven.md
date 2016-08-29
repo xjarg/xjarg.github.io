@@ -156,13 +156,13 @@ His work ponders on the role of memory and nostalgia in artistic creation, the u
 
 ---
 
-## Educación
+## Education
 
 **2003 — 2008** Industrial engineering. Instituto Tecnológico de Saltillo.
 
 **2000 — 2003** Information technology. CBTis No. 20, Sabinas, Coahuila, México.
 
-## Talleres y cursos
+## Workshops and courses
 
 **2014** Oral poetry and poetic action workshop by Ricardo Castillo.
 
