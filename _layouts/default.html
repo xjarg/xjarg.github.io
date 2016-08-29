@@ -10,9 +10,11 @@
 </head>
 <body>
   <div class="container">
-    {% markdown head.md %}
+    {% capture my_include %}{% include head.md %}{% endcapture %}
+    {{ my_include | markdownify }}
     {{ content }}
-    {% markdown footer.md %}
+    {% capture my_include %}{% include footer.md %}{% endcapture %}
+    {{ my_include | markdownify }}
   </div>
 {% include scripts.html %}
 </body>
