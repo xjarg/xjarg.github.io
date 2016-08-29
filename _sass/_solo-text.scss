@@ -1,12 +1,12 @@
-@import 'https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i,700,700i|Ubuntu:700';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:700,700i|Vollkorn:400,400i,700,700i';
 
 html {
-  font: 14px/1.5 'Ubuntu Mono', monospace;
+  font: 14px/1.5 'Vollkorn', serif;
 }
 
 @media (min-width: 30rem) {
   html {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
@@ -31,7 +31,7 @@ a:hover, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0 0 0.5rem -0.1rem /* align left edge */;
   line-height: 1;
   color: #111;
@@ -146,7 +146,7 @@ pre > code {
 }
 
 .container {
-  max-width: 45rem;
+  max-width: 40rem;
   margin: 0 auto;
   padding: 0 1rem;
 }

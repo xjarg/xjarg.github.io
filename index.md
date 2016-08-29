@@ -20,27 +20,25 @@ site, the artist's URL is the only guarantor that one is viewing the "original",
 most up-to-date and uncompromised version of the work.'
 ––Greene, R. (2004). Internet art. New York, NY: Thames & Hudson.
 
-# To Do:
-
-– Image gallery
-– Video gallery
-– Proyect repositories
-
 -->
 
-hago cosas con computadoras:  
-imágenes, sonidos, video y texto.
+# jorge rangel
 
-i make stuff with computers:  
-images, sounds, video and text.
+i make stuff with computers: images, sounds, video and text.
+
+hago cosas con computadoras: imágenes, sonidos, video y texto.
 
 email: [mail@jrangel.net](mailto:mail@jrangel.net)  
+
+cv: [english](/cven) \|
+[español](/cves)
 
 [twitter](https://twitter.com/jarxg) \|
 [instagram](https://instagram.com/jarxg) \|
 [youtube](https://www.youtube.com/jarbear) \|
 [github](https://github.com/jarxg) \|
-[goodreads](https://www.goodreads.com/user/show/3606456-jorge)
+[goodreads](https://www.goodreads.com/user/show/3606456-jorge) \|
+[pocket](https://getpocket.com/@jarxg)
 
 [bio](#bio) \|
 [proyects](#proyects) \|
@@ -55,15 +53,15 @@ email: [mail@jrangel.net](mailto:mail@jrangel.net)
 
 Región Carbonífera de Coahuila, México, 1985.
 
+### english
+
+Sound and visual artist, videomaker, and independent cultural promoter. He has colaborated with writers, filmmakers, visual artists, dramatists, dancers, conceptual artists, among others. He earned a PECDA Coahuila fellowship in 2015 in the "jóvenes creadores" category in the digital arts area.  
+His work ponders on the role of memory and nostalgia in artistic creation, the use of new technologies, the materiality of cybernetic spaces, and questions the limits that define the authoral figure.
+
 ### español
 
 Artista visual y sonoro, videoasta y promotor cultural independiente. Ha colaborado con escritores, cineastas, artistas visuales, teatristas, bailarines, artistas conceptuales, entre otros. Fue becario del PECDA Coahuila en 2015 en la categoría de jóvenes creadores en el área de artes digitales.  
 Su obra reflexiona acerca del papel de la memoria y la nostalgia en la creación artística, el uso de nuevas tecnologías, la materialidad de los espacios cibernéticos, y se cuestiona los límites que definen a la figura autoral.
-
-### english
-
-Sound artist, videomaker, and independent cultural promoter. He has colaborated with writers, filmmakers, visual artists, dramatists, dancers, conceptual artists, among others. He earned a PECDA Coahuila fellowship in 2015 in the "jóvenes creadores" category in the digital arts area.  
-His work ponders on the role of memory and nostalgia in artistic creation, the use of new technologies, the materiality of cybernetic spaces, and questions the limits that define the authoral figure.
 
 ---
 
@@ -122,7 +120,7 @@ His work ponders on the role of memory and nostalgia in artistic creation, the u
 [1D EP](http://music.jrangel.net/album/1d-ep)  
 [Seis Piezas Para Videos](http://music.jrangel.net/album/seis-piezas-para-videos)  
 
-### Ambient albums
+### Ambient
 
 [Música de Vidrio](http://music.jrangel.net/album/m-sica-de-vidrio)  
 [Reverie: A Portrait of You](http://music.jrangel.net/album/reverie-a-portrait-of-you)  
@@ -138,7 +136,7 @@ His work ponders on the role of memory and nostalgia in artistic creation, the u
 [BTL.EP](http://music.jrangel.net/album/btl-ep)  
 [MOBILE EP 01](http://music.jrangel.net/album/mobile-ep-01)  
 
-### as Excel '97'
+### as Excel '97
 
 [あなたは誰 EP](http://music.jrangel.net/album/ep)  
 
@@ -172,7 +170,7 @@ I am Jorge Rangel and I’m a musician, visual artist, multimedia artist and wri
 
 ### What hardware do you use?
 
-I use a [MacBook Pro 13” 2012 non-Retina](http://www.everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i5-2.5-13-mid-2012-unibody-usb3-specs.html) which I got because it’s so much more upgradeable than any other currently available model. I have an [iPod touch 5](http://www.apple.com/es/ipod-touch/) which I use to take pictures, shoot video and sketch music. I just got my first smartphone, a [Samsung J3](http://www.gsmarena.com/samsung_galaxy_j3_(2016)-7760.php) that has a beautiful AMOLED screen and Android Lollypop. I use it to stay connected 24/7, something I resisted for years.  
+I use a [MacBook Pro 13” 2012 non-Retina](http://www.everymac.com/systems/apple/macbook_pro/specs/macbook-pro-core-i5-2.5-13-mid-2012-unibody-usb3-specs.html) which I got because it’s so much more upgradeable than any other currently available model. I have an [iPod touch 5](http://www.apple.com/es/ipod-touch/) which I use to take pictures, shoot video and sketch music. I just got my first smartphone, a [Samsung J3](http://www.gsmarena.com/samsung_galaxy_j3_(2016)-7760.php) that has a beautiful AMOLED screen and Android Lollypop. I use it to stay connected 24/7, something I resisted for years. I also listen to music and a ton of podcasts.  
 For music and sound production I use a [Focusrite Scarlett 2i2](https://us.focusrite.com/usb-audio-interfaces/scarlett-2i2) interface and the [Novation Launchpad Mini](https://global.novationmusic.com/launch/launchpad-mini). I love them both. When I play live (and I rarely do that anymore) I use a [Line 6 FBV Express MkII](http://line6.com/footcontrollers/fbvexpressmkii.html/) foot MIDI controller. I also have a cheap Silvertone Strat-clone-gone-wrong which is enough for me.  
 For drawing I use mostly sharpies and a variety of stylographs and pencils, usually on Moleskines, sketchpads or index cards.  
 I read on a [Kindle](https://www.amazon.com/Kindle-Ereader-ebook-reader/dp/B007HCCNJU/) and get my e-books exclusively from DRM-free distributors.  
@@ -182,7 +180,8 @@ Sometimes I take photos and shot video with a not-so-fancy-but-reliable Fujifilm
 
 For music and sound I use [Ableton Live 9](https://www.ableton.com), mainly. Sometimes I also use [SunVox](http://www.warmplace.ru/soft/sunvox/) (on both macOS and iOS), [GarageBand](http://www.apple.com/mac/garageband/) (also on macOS and iOS), [Reaper](http://www.reaper.fm) and [Max](https://cycling74.com). I’m trying to learn [Supercollider](http://supercollider.github.io).  
 For visual and multimedia art I use a variety of tools: [Processing](https://processing.org) for generative visuals and image glitching; Max for processing images and video using Vizzie; [Pixelmator](http://www.pixelmator.com/mac/) for image editing; [Final Cut Pro](https://www.apple.com/final-cut-pro/) and [iMovie](https://www.apple.com/mac/imovie/) for video editing, depending on the complexity of the task at hand. I'm currently getting into [Quartz Composer](https://en.wikipedia.org/wiki/Quartz_Composer), it's really cool.  
-I write HTML in [Atom](https://atom.io) and upload it to [GitHub](https://github.com).  
+I also use a lot of apps on my J3 and iPod touch to manipulate images and upload them to [Instagram](http://instagram.com/jarxg).  
+I write Markdowon in [Atom](https://atom.io) and upload it to [GitHub](https://github.com). [Jekyll](https://jekyllrb.com) turns that into this website.  
 I use [the default apps that come with a Mac](http://www.apple.com/osx/apps/): I write on Pages and sometimes Text Edit, check my email accounts on Mail, get organized with Calendar and Reminders. I organize my photos on Photos and listen to music and podcasts on iTunes. The integration with Mac OS X and iOS makes using these apps a no-brainer for me. I use QuickTime to capture screencasts. I sync everything with iCloud, except for my contacts, which I also sync using Google since I started using an Android phone.  
 My to-do system is [todo.txt](http://www.todotxt.com) using Simplenote Cloudless on my phone.  
 I keep a journal on [Day One](http://dayoneapp.com), which I love.  
