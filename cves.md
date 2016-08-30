@@ -4,6 +4,10 @@ layout: default
 
 # jorge rangel - cv
 
+[Descargar este CV como PDF.](cves.pdf)
+
+---
+
 +52(844)3506095  
 [mail@jrangel.net](mail@jrangel.net)  
 [http://www.jrangel.net](http://www.jrangel.net)
