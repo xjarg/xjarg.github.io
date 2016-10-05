@@ -122,6 +122,10 @@ Su obra reflexiona acerca del papel de la memoria y la nostalgia en la creación
 **2012** [38-8,2](http://music.jrangel.net/album/38-82)  
 **2012** [ghst](http://music.jrangel.net/album/ghst)  
 
+## como Trippin' On A Tuesday
+
+[Trippin' On A Tuesday](http://music.jrangel.net/album/trippin-on-a-tuesday)
+
 ### como Jar G.
 
 **2014** [BTL.EP](http://music.jrangel.net/album/btl-ep)  

@@ -35,6 +35,10 @@ layout: default
 [38-8,2](http://music.jrangel.net/album/38-82)  
 [ghst](http://music.jrangel.net/album/ghst)  
 
+## as Trippin' On A Tuesday
+
+[Trippin' On A Tuesday](http://music.jrangel.net/album/trippin-on-a-tuesday)
+
 ## as Jar G.
 
 [BTL.EP](http://music.jrangel.net/album/btl-ep)  
@@ -57,3 +61,8 @@ layout: default
 ## with EXPERIMENTRÍO
 
 [R E S P U E S T A S](https://idmachine.bandcamp.com/album/sentado-en-baker-street)
+
+## on github
+
+[sonicpi_music_by_jarxg](https://github.com/jarxg/sonicpi_music_by_jarxg)  
+[sunvox_music_by_jarxg](https://github.com/jarxg/sunvox_music_by_jarxg)

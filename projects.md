@@ -19,6 +19,11 @@ layout: default
 [Gota](https://vimeo.com/100379907)  
 [Summertime](https://vimeo.com/116725751)
 
+## repositories on github
+
+[sonicpi_music_by_jarxg](https://github.com/jarxg/sonicpi_music_by_jarxg)  
+[sunvox_music_by_jarxg](https://github.com/jarxg/sunvox_music_by_jarxg)
+
 ## twine
 
 [Lecture on Nothing](twine/nothing.html)
