@@ -6,7 +6,16 @@ layout: default
 
 ## analepsis
 
-[analepsis01](https://www.youtube.com/watch?v=X90kBpaTwL8)
+[analepsis01](https://www.youtube.com/watch?v=X90kBpaTwL8)  
+[analepsis02](https://www.youtube.com/watch?v=p-atVd_15lk)
+
+## molécula
+
+[Molécula](https://www.youtube.com/watch?v=fqxbWxXeGmg)
+
+## open directories
+
+...work in progress...
 
 ## super 8
 
@@ -18,11 +27,6 @@ layout: default
 [Le](https://vimeo.com/64741257)  
 [Gota](https://vimeo.com/100379907)  
 [Summertime](https://vimeo.com/116725751)
-
-## repositories on github
-
-[sonicpi_music_by_jarxg](https://github.com/jarxg/sonicpi_music_by_jarxg)  
-[sunvox_music_by_jarxg](https://github.com/jarxg/sunvox_music_by_jarxg)
 
 ## twine
 

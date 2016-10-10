@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# links about stuff i care about
+# links to stuff i care about
 
 [Arts & Letters Daily](http://www.aldaily.com)  
 [Longform](http://longform.org)  
