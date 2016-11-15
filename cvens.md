@@ -1,20 +1,10 @@
----
-layout: default
----
-
 # jorge rangel - cv
 
-[Download this CV as a PDF.](cven.pdf)
-
----
-
-+52(844)3506095  
+ex+52(844)3506095  
 [mail@jrangel.net](mail@jrangel.net)  
 [http://www.jrangel.net](http://www.jrangel.net)
 
 Saltillo, Coahuila, México
-
----
 
 Región Carbonífera de Coahuila, México, 1985. Sound and visual artist, videomaker, and independent cultural promoter. He has colaborated with writers, filmmakers, visual artists, dramatists, dancers, conceptual artists, among others. He earned a PECDA Coahuila fellowship in 2015 in the "jóvenes creadores" category in the digital arts area.  
 His work ponders on the role of memory and nostalgia in artistic creation, the use of new technologies, the materiality of cybernetic spaces, and questions the limits that define the authoral figure.
@@ -27,7 +17,7 @@ His work ponders on the role of memory and nostalgia in artistic creation, the u
 
 **2016** Experimental video proyection from the project *127.0.0.1* as part of the Festival Internacional Saltillo 2016. Centro Cultural Casa Purcell.
 
-**2016** Videos from the project *Super 8* were selected to be part of the exposition *Nuevo Mundo, 777 Kilómetros a la redonda*. Coordinación de Artes Visuales del Instituto Cultural de León (León, Guanajuato).
+**2016** Videos from the project *Super 8* were selected to be part of the exhibition *Nuevo Mundo, 777 Kilómetros a la redonda*. Coordinación de Artes Visuales del Instituto Cultural de León (León, Guanajuato).
 
 **2016** Screenwriting teacher. Universidad La Salle de Saltillo.
 
@@ -92,81 +82,6 @@ His work ponders on the role of memory and nostalgia in artistic creation, the u
 **2008** Music for Alejandro Esparza Farías y Espinosa's “Hacia el Centro del Tiempo” expo. Centro Cultural Casa Purcell.
 
 **2007** Multimedia center services. Centro Cultural Casa Purcell.
-
----
-
-## Discography
-
-### LPs
-
-**2006** [Dysmorphophobia](http://music.jrangel.net/album/dysmorphophobia)  
-**2008** ["Mushrooms"](http://music.jrangel.net/album/mushrooms)  
-**2010** [Dots](http://music.jrangel.net/album/dots)  
-**2012** [Life is a Work in Progress](http://music.jrangel.net/album/life-is-a-work-in-progress)  
-**2014** [Lines, Vol. I](http://music.jrangel.net/album/lines-vol-i)  
-**2016** [Lines, Vol. II: Hybris](http://music.jrangel.net/album/lines-vol-ii-hybris)
-
-### Multi-Branched Analepsis
-
-**2016** [Multi-Branched Analepsis, Vol. 1](http://music.jrangel.net/album/multi-branched-analepsis-vol-1)  
-**2016** [Multi​-​Branched Analepsis, Vol. 2](http://music.jrangel.net/album/multi-branched-analepsis-vol-2)  
-
-### EPs
-
-**2006** [Rainy EP - Historia de un día lluvioso](http://music.jrangel.net/album/rainy-ep-historia-de-un-d-a-lluvioso)  
-**2008** [1D EP](http://music.jrangel.net/album/1d-ep)  
-**2010** [Seis Piezas Para Videos](http://music.jrangel.net/album/seis-piezas-para-videos)  
-
-### Ambient
-
-**2009** [Música de Vidrio](http://music.jrangel.net/album/m-sica-de-vidrio)  
-**2010** [Reverie: A Portrait of You](http://music.jrangel.net/album/reverie-a-portrait-of-you)  
-**2011** [Melisma: One More Portrait of You](http://music.jrangel.net/album/melisma-one-more-portrait-of-you)  
-**2011** ["...mensajes cifrados desde un planeta más allá de Alfa Centauro"](http://music.jrangel.net/album/mensajes-cifrados-desde-un-planeta-m-s-all-de-alfa-centauro)  
-**2012** [Plexo](http://music.jrangel.net/album/plexo)  
-**2012** [38-8,1](http://music.jrangel.net/album/38-81)  
-**2012** [38-8,2](http://music.jrangel.net/album/38-82)  
-**2012** [ghst](http://music.jrangel.net/album/ghst)  
-
-### as Trippin' On A Tuesday
-
-**2016** [Trippin' On A Tuesday](http://music.jrangel.net/album/trippin-on-a-tuesday)
-
-### as Jar G.
-
-**2014** [BTL.EP](http://music.jrangel.net/album/btl-ep)  
-**2014** [MOBILE EP 01](http://music.jrangel.net/album/mobile-ep-01)  
-
-### as Excel '97
-
-**2014** [あなたは誰 EP](http://music.jrangel.net/album/ep)  
-
-### with Los Decadentes de Linares
-
-**2016** [Schippers Straat](http://music.jrangel.net/album/schippers-straat)
-
-### with id machine
-
-**2013** [Sentado en Baker Street](https://idmachine.bandcamp.com/album/sentado-en-baker-street)  
-**2013** [Canciones para fiestas de hipsters felices tomando aguas locas](https://idmachine.bandcamp.com/album/canciones-para-fiestas-de-hipsters-felices-tomando-aguas-locas)  
-**2014** [La Nave de China](https://idmachine.bandcamp.com/album/la-nave-de-china)
-
-### with EXPERIMENTRÍO
-
-**2015** [R E S P U E S T A S](https://idmachine.bandcamp.com/album/sentado-en-baker-street)
-
----
-
-## Press
-
-**2012** [Inician las jornadas literarias *Los Límites del Lenguaje: La Degramaticalidad Increíble*](http://www.cultura.gob.mx/noticias/proyectos-culturales/19695-inician-las-jornadas-literarias-los-limites-del-lenguaje:-la-degramaticalidad-increible.html)  
-**2014** [Entrevista con Jorge Rangel](http://www.eslocotidiano.com/articulo/tachas-36/entrevista-jorge-rangel/20140209064106007520.html)  
-**2015** ['Experimentrío' fusiona jazz en La Besana](http://www.zocalo.com.mx/seccion/articulo/fusiona-jazz-en-la-besana-1429424635)  
-**2015** [*Super 8* da inicio a *Saltillo Contemporary*](http://www.vanguardia.com.mx/articulo/super-8-da-inicio-saltillo-contemporary)  
-**2015** [Arte multimedia para dummies](http://www.vanguardia.com.mx/articulo/arte-multimedia-para-dummies)  
-**2015** [Invitan a taller multimedia](http://elheraldodesaltillo.mx/2015/10/26/invitan-al-taller-de-arte-multimedia/)  
-**2015** [Programar enseña a encarar problemas: Jorge Rangel, artista sonoro](http://www.sinembargo.mx/03-05-2015/1330065)  
-**2016** [Inicia el Mes del Becario PECDA en Saltillo](http://www.vanguardia.com.mx/articulo/inicia-el-mes-del-becario-del-pecda-en-saltillo)
 
 ---
 
