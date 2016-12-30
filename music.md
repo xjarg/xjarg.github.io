@@ -34,6 +34,7 @@ layout: default
 [38-8,1](http://music.jrangel.net/album/38-81)  
 [38-8,2](http://music.jrangel.net/album/38-82)  
 [ghst](http://music.jrangel.net/album/ghst)  
+[AROUND HOME](http://music.jrangel.net/album/around-home)
 
 ## as Trippin' On A Tuesday
 
