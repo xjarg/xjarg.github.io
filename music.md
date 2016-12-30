@@ -61,8 +61,3 @@ layout: default
 ## with EXPERIMENTRÍO
 
 [R E S P U E S T A S](https://idmachine.bandcamp.com/album/sentado-en-baker-street)
-
-## on github
-
-[sonicpi_music_by_jarxg](https://github.com/jarxg/sonicpi_music_by_jarxg)  
-[sunvox_music_by_jarxg](https://github.com/jarxg/sunvox_music_by_jarxg)

@@ -23,6 +23,8 @@ His work ponders on the role of memory and nostalgia in artistic creation, the u
 
 ## Experience
 
+**2016** Selected to exhibit as part of the Festival Internacional de Arte Contemporáneo de León 2016, *Glitch / Singularidad*.
+
 **2016** Selected as part of the Festival Internacional de Video Samples México 2016, *Transvideo: Borderless Image*.
 
 **2016** Experimental video proyection from the project *127.0.0.1* as part of the Festival Internacional Saltillo 2016. Centro Cultural Casa Purcell.
