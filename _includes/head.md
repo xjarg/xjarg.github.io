@@ -1,7 +1,6 @@
 [home](index) \|
-cv: [en](cven) & [es](cves) \|
+[cv (es, pdf)](cves.pdf) \|
 [projects](projects) \|
 [music](music) \|
-[setup](setup)
 
 ---

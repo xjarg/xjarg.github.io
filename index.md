@@ -31,7 +31,6 @@ email: [mail@jrangel.net](mailto:mail@jrangel.net)
 
 [twitter](https://twitter.com/jarxg) \|
 [instagram](https://instagram.com/jarxg) \|
-[youtube](https://www.youtube.com/jarbear) \|
 [github](https://github.com/jarxg) \|
 [goodreads](https://www.goodreads.com/user/show/3606456-jorge) \|
-[pocket](https://getpocket.com/@jarxg)
+[instapaper](https://www.instapaper.com/p/jrangel)
