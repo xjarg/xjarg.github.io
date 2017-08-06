@@ -15,6 +15,6 @@ layout: default
 [analepsis01](https://www.youtube.com/watch?v=X90kBpaTwL8) (2016)  
 [Molécula](https://www.youtube.com/watch?v=fqxbWxXeGmg) (2016)  
 [analepsis02](https://www.youtube.com/watch?v=p-atVd_15lk) (2016)  
-[AROUND HOME](https://www.youtube.com/watch?v=Tp26q7GVrm0) (2016)
-[Snap](https://www.youtube.com/watch?v=cbPXq9E9YbU) (2016)
+[AROUND HOME](https://www.youtube.com/watch?v=Tp26q7GVrm0) (2016)  
+[Snap](https://www.youtube.com/watch?v=cbPXq9E9YbU) (2016)  
 ["La Luna y El Amor"](https://www.youtube.com/watch?v=XAXxDKqQ2fM), with R. Yedras (2016)  
