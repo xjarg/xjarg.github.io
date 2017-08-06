@@ -28,9 +28,3 @@ i make stuff with computers: images, sounds, video and text.
 hago cosas con computadoras: imágenes, sonidos, video y texto.
 
 email: [mail@jrangel.net](mailto:mail@jrangel.net)  
-
-[twitter](https://twitter.com/jarxg) \|
-[instagram](https://instagram.com/jarxg) \|
-[github](https://github.com/jarxg) \|
-[goodreads](https://www.goodreads.com/user/show/3606456-jorge) \|
-[instapaper](https://www.instapaper.com/p/jrangel)
