@@ -50,8 +50,8 @@ layout: default
 
 ## with Los Decadentes de Linares
 
-[Schippers Straat](http://music.jrangel.net/album/schippers-straat) (2016)
-
+[Schippers Straat](https://losdecadentesdelinares.bandcamp.com/album/schippers-straat) (2016)  
+[Aquí yace la máquina de escribir](https://losdecadentesdelinares.bandcamp.com/album/aqu-yace-la-m-quina-de-escribir) (2017)
 
 ## with EXPERIMENTRÍO
 

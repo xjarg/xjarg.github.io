@@ -4,6 +4,11 @@ layout: default
 
 # jorge rangel – other projects
 
+## bots
+
+[@bot_de_pelis](https://twitter.com/bot_de_pelis)  
+[@NumeneraBot](https://twitter.com/NumeneraBot)
+
 ## twine
 
 [Lecture on Nothing](twine/nothing.html)
