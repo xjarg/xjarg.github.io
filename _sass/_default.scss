@@ -11,7 +11,8 @@ html {
 
 body {
     margin: 2rem 0 5rem;
-    color: #333;
+    color: #fff;
+    background: #2c2c2c;
 }
 @media (min-width: 30rem) {
     body {
@@ -20,7 +21,7 @@ body {
 }
 
 a {
-    color: #0074d9;
+    color: #7fdbff;
     /* From http://clrs.cc */
     text-decoration: none;
 }
@@ -40,7 +41,7 @@ h6 {
     /* align left edge */
     margin: 0 0 0.5rem -0.1rem;
     line-height: 1;
-    color: #111;
+    color: #c2c2c2;
     text-rendering: optimizeLegibility;
 }
 

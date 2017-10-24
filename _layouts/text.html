@@ -12,7 +12,7 @@
 
 <body>
     <div class="container">
-        {{ content }}
+        {{ my_include | markdownify }} {{ content }} {{ my_include | markdownify }}
     </div>
     {% include scripts.html %}
 </body>

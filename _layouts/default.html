@@ -12,7 +12,7 @@
 
 <body>
     <div class="container">
-        {% capture my_include %}{% include head.md %}{% endcapture %} {{ my_include | markdownify }} {{ content }} {% capture my_include %}{% include footer.md %}{% endcapture %} {{ my_include | markdownify }}
+        {{ content }}
     </div>
     {% include scripts.html %}
 </body>
