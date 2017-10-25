@@ -1,11 +1,9 @@
-@import 'https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i,700,700i|Ubuntu:700';
-
 html {
-    font: 14px/1.5 'Ubuntu Mono', monospace;
+    font: 14px/1.25 Menlo, Consolas, monospace;
 }
 @media (min-width: 30rem) {
     html {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
@@ -21,14 +19,15 @@ body {
 }
 
 a {
-    color: #7fdbff;
+    // color: #7fdbff;
+    color: #ffffff;
     /* From http://clrs.cc */
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:focus,
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h1,
@@ -37,49 +36,59 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Ubuntu', sans-serif;
-    /* align left edge */
-    margin: 0 0 0.5rem -0.1rem;
+    font-size: 1rem;
     line-height: 1;
-    color: #c2c2c2;
+    color: #ffffff;
     text-rendering: optimizeLegibility;
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
 }
 @media (min-width: 30rem) {
     h1 {
-        font-size: 2.5rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1.25rem;
     }
 }
 
 h1 a {
-    color: inherit;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 h2 {
-    margin-top: 2rem;
-    font-size: 1.25rem;
-    margin-bottom: 0.75rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 @media (min-width: 30rem) {
     h2 {
-        margin-top: 2.5rem;
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
     }
 }
+
+h2 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 
 h3,
 h4,
 h5,
 h6 {
-    margin-top: 1.5rem;
-    font-size: 1rem;
-    text-transform: uppercase;
+    margin-top: 1.25rem;
 }
 
 blockquote,
@@ -89,24 +98,24 @@ p,
 pre,
 table,
 ul {
-    margin-top: 0;
-    margin-bottom: 1rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 ol,
 ul {
-    padding-left: 1.5rem;
+    padding-left: 1.25rem;
 }
 
 dd {
-    margin-left: 1.5rem;
+    margin-left: 1.25rem;
 }
 
 blockquote {
     margin-left: 0;
     margin-right: 0;
-    padding: 0.5rem 1rem;
-    border-left: 0.25rem solid #ccc;
+    padding: 1rem 1rem;
+    border-left: 1rem solid #ccc;
     color: #666;
 }
 
@@ -116,7 +125,7 @@ blockquote p:last-child {
 
 hr {
     border: none;
-    margin: 1.5rem 0;
+    margin: 1.25rem 0;
     border-bottom: 1px solid #ccc;
     position: relative;
     top: -1px;
@@ -147,7 +156,7 @@ th {
 code,
 pre {
     font-family: inherit;
-    background-color: #eee;
+    background-color: #1c1c1c;
 }
 
 pre {
@@ -156,6 +165,7 @@ pre {
 }
 
 code {
+    font: 12px/1.25 Menlo, Consolas, monospace;
     padding: 0.1rem 0.25rem;
 }
 
@@ -164,7 +174,7 @@ pre > code {
 }
 
 .container {
-    max-width: 35rem;
+    max-width: 40rem;
     margin: 0 auto;
     padding: 0 1rem;
 }
