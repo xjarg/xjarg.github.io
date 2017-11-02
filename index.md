@@ -22,17 +22,19 @@ CC BY-NA-SA 4.0
 
 # jorge rangel
 
-[@jarxg](https://www.twitter.com/jarxg) [cv(es)](cv.pdf)
+[@jarxg](https://www.twitter.com/jarxg) [cv(es)](cv)
 
-uso computadoras para crear cosas ~ i use computers to make things
+i use computers to make images and sounds.
+
+![me](assets/index-67ca8.png)
 
 ---
 
-## música ~ music
-
-[bandcamp](http://jarxg.bandcamp.com).
+## music
 
 [tidalcycles](https://tidalcycles.org) @ [github](https://github.com/jarxg/my_tidalcycles_stuff).
+
+[bandcamp](http://jarxg.bandcamp.com).
 
 - Dysmorphophobia (2006)  
 - Rainy EP - Historia de un día lluvioso (2006)  
@@ -62,14 +64,14 @@ uso computadoras para crear cosas ~ i use computers to make things
 - Multi​-​Branched Analepsis, Vol. 2 (2016)  
 - AROUND HOME (2016)  
 - Aquí yace la máquina de escribir (@ [Los Decadentes de Linares](https://losdecadentesdelinares.bandcamp.com)) (2017)  
-- [Recuerdos Divididos EP](http://music.jrangel.net/album/recuerdos-divididos-ep) (+ R. Yedras) (2017)
+- [Recuerdos Divididos EP](http://music.jrangel.net/album/recuerdos-divididos-ep) (+ [R. Yedras](https://twitter.com/ryedras)) (2017)
 
 ---
 
 ## video
 
-- ♫ ["Permanencia Voluntaria"](https://vimeo.com/39743397), + El Taller de la Caballeriza (2009)  
-- ♫ ["Lección de Biología"](https://www.youtube.com/watch?v=5aI3PoWOjoE), + Mónica Álvarez & Julián Herbert (2009)  
+- ♫ ["Permanencia Voluntaria"](https://vimeo.com/39743397), @ El Taller de la Caballeriza (2009)  
+- ♫ ["Lección de Biología"](https://www.youtube.com/watch?v=5aI3PoWOjoE), + Mónica Álvarez & Julián Herbert @ El Taller de la Caballeriza (2009)  
 - ♫ ✄ [1.6180339887](https://vimeo.com/39391488), + Julián Herbert. (2010)  
 - ♫ ✄ [Malas Palabras](https://vimeo.com/31437957), + Luis Alberto Arellano. (2011)  
 - ✄ [El Triste Hígado](https://vimeo.com/39122549), + Efraín Velasco. (2012)  
@@ -98,10 +100,6 @@ uso computadoras para crear cosas ~ i use computers to make things
 ## twine
 
 - [Lecture on Nothing](twine/nothing.html) (2015)
-
----
-
-![me](assets/index-67ca8.png)
 
 ---
 
