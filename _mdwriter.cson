@@ -13,9 +13,9 @@
 
 # Static engine of your blog
 # - One of: general, html, jekyll, octopress, hexo
-siteEngine: "general"
+siteEngine: "jekyll"
 # Website URL of your blog
-siteUrl: ""
+siteUrl: "jrangel.net"
 
 # Root directory to your blog
 # - Leave it empty to use the current project path (recommended)
@@ -55,7 +55,7 @@ date: "{date}"
 """
 
 # File extension of posts/drafts
-fileExtension: ".markdown"
+fileExtension: ".md"
 # File slug separator
 slugSeparator: "-"
 
