@@ -28,13 +28,13 @@ i use computers to make images and sounds.
 
 ---
 
-i'm on [twitter](https://www.twitter.com/jarxg) and [instagram](https://www.instagram.com/jarxg)
+i'm on [twitter](https://www.twitter.com/jarxg)
 
 ---
 
 ## music
 
-[tidalcycles repository](https://github.com/jarxg/my_tidalcycles_stuff)
+[tidalcycles music repository](https://github.com/jarxg/my_tidalcycles_stuff)
 
 [bandcamp](http://jarxg.bandcamp.com)
 
@@ -99,6 +99,12 @@ send me an email (mail[at]jrangel[dot]net) if you want any of the unlinked album
 - macrobes (digital video, 18'44", 2017)
 
 (♫ = music only / ✄ = editing only)
+
+---
+
+## visual art
+
+[instagram](https://www.instagram.com/jarxg)
 
 ---
 
