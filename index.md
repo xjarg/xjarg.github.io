@@ -36,9 +36,13 @@ i'm on [twitter](https://www.twitter.com/jarxg)
 
 [tidalcycles music repository](https://github.com/jarxg/my_tidalcycles_stuff)
 
-[bandcamp](http://jarxg.bandcamp.com)
+[discography](discography)
+
+[bandcamp](http://jarxg.bandcamp.com), currently on hiatus
 
 [soundcloud](https://soundcloud.com/jarxg)
+
+## discography
 
 - Dysmorphophobia (2006)  
 - Rainy EP - Historia de un día lluvioso (2006)  

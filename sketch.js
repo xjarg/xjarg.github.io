@@ -1,3 +1,5 @@
+console.log("what are you looking at? :)");
+
 var iX1, iY1, iZ1, iX2, iY2, iZ2 = 0;
 
 function dome(st, iX, iY, iZ) {
