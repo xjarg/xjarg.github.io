@@ -1,5 +1,6 @@
 ---
 layout: homepage
+title: homepage
 ---
 
 # <script> document.write(new Date().toLocaleDateString()); </script>

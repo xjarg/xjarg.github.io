@@ -2,26 +2,6 @@
 layout: default
 ---
 
-<!--
-
- ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____
-||j |||r |||a |||n |||g |||e |||l |||. |||n |||e |||t ||
-||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__||
-|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
-CC BY-NA-SA 4.0
-
-––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-
-'In the plagiaristic environment of the Net, where anyone can clone any web site, the artist's URL is the only guarantor that one is viewing the "original", most up-to-date and uncompromised version of the work.'  
-––Greene, R. (2004). Internet art. New York, NY: Thames & Hudson.
-
-![me](assets/index-67ca8.png)
-
--->
-
 # jorge rangel
 
 i use computers to make images and sounds.
