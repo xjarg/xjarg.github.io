@@ -6,8 +6,7 @@ layout: homepage
 
 <i class="fa fa-search" aria-hidden="true"></i> [duckduckgo](http://ddg.gg)
 
-<i class="fa fa-map" aria-hidden="true"></i>
- [openstreetmap](http://www.openstreetmap.org)
+<i class="fa fa-map" aria-hidden="true"></i> [openstreetmap](http://www.openstreetmap.org)
 
 <i class="fa fa-envelope" aria-hidden="true"></i> [gmail](https://mail.google.com/mail) :: [protonmail](https://mail.protonmail.com/inbox)
 
