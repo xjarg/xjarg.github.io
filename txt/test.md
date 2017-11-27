@@ -1,26 +1,39 @@
 ---
 layout: text
 title: sandbox
-date-started: 2017-1-21
+date-started: 2017-11-21
 date-lastedited: '2017-11-22'
 ---
 
-# h1 hache uno
+# start
 
 Started writing: {{ page.date-started | date: "%Y-%-m-%-d" }}<br>
 Last edited: {{ page.date-lastedited | date: "%Y-%-m-%-d" }}
 
-## h2 hache dos
+¡Felicidades! Si estás leyendo esto es porque eres una persona bastante curiosa. Eso o yo te pasé el enlace. Cualquiera de las dos cosas significa que me caes bien. Este es el documento donde pruebo qué tal se verán los cambios en mi CSS. Nada del otro mundo, pero qué padre que caíste aquí.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OWafkvmVo0w" frameborder="0" allowfullscreen></iframe>
+
+## lists, format and quotes
+
+1. First item
+2. Second item
+    1. Second and a half item
+3. Third item
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. **_Sed sollicitudin nunc dolor, eu commodo tortor pellentesque vel._** Proin at venenatis dolor, ac molestie mi. `Quisque vitae rhoncus ex`. Vestibulum sed vulputate metus. Donec eget commodo mi, at efficitur mi. _Donec convallis leo a nisi dignissim pulvinar._ Vestibulum aliquet est ut venenatis tempor. Nulla eu orci aliquet, interdum odio sit amet, feugiat erat. Phasellus luctus varius lectus, sed rutrum leo egestas vitae. **Praesent vitae mauris a turpis vestibulum rhoncus. Ut elementum semper porta.** Proin vestibulum, neque id venenatis vulputate, justo sapien volutpat libero, euismod venenatis metus erat a nunc. Donec velit ex, malesuada ac tincidunt in, venenatis et ex. Phasellus feugiat non erat quis interdum.
 
-Proin finibus accumsan pharetra. Cras metus elit, volutpat sed bibendum at, aliquet non nibh. Cras vestibulum, ligula ut vulputate sodales, metus metus sodales urna, in malesuada risus nisl eu neque. Praesent blandit ultrices nunc vel mattis. Aenean et porttitor lorem. Suspendisse congue erat eu magna mollis imperdiet. Maecenas accumsan accumsan justo, ac aliquam nibh dictum eu. Suspendisse vitae lobortis eros, ut sollicitudin dui. Aenean quis libero quis purus venenatis luctus. Nam dictum nisi vel varius finibus. Fusce et elit ac massa facilisis faucibus sed tincidunt orci.
+> Proin finibus accumsan pharetra. Cras metus elit, volutpat sed bibendum at, aliquet non nibh. Cras vestibulum, ligula ut vulputate sodales, metus metus sodales urna, in malesuada risus nisl eu neque. Praesent blandit ultrices nunc vel mattis. Aenean et porttitor lorem.  
+> Suspendisse congue erat eu magna mollis imperdiet. Maecenas accumsan accumsan justo, ac aliquam nibh dictum eu. Suspendisse vitae lobortis eros, ut sollicitudin dui. Aenean quis libero quis purus venenatis luctus. Nam dictum nisi vel varius finibus. Fusce et elit ac massa facilisis faucibus sed tincidunt orci.
 
-## h2 hache dos
+- First item
+- Second item
+    - Second and a half item
+- Third item
 
-Morbi et ante ac enim posuere fermentum. Nunc ligula eros, ullamcorper in sagittis convallis, aliquet ut urna. Ut pellentesque ornare nunc in vestibulum. Fusce tristique viverra pulvinar. Maecenas dapibus vitae sapien in malesuada. Donec sagittis mauris sit amet enim viverra, vel feugiat mauris hendrerit. Aliquam hendrerit pretium tincidunt. Cras tristique malesuada aliquet.
+> Morbi et ante ac enim posuere fermentum. Nunc ligula eros, ullamcorper in sagittis convallis, aliquet ut urna. Ut pellentesque ornare nunc in vestibulum. Fusce tristique viverra pulvinar. Maecenas dapibus vitae sapien in malesuada. Donec sagittis mauris sit amet enim viverra, vel feugiat mauris hendrerit. Aliquam hendrerit pretium tincidunt. Cras tristique malesuada aliquet.
 
-## h2 hache dos
+## code blocks
 
 ```markdown
 
@@ -134,7 +147,7 @@ send me an email (mail[at]jrangel[dot]net) if you want any of the unlinked album
 theme based on [Solo](https://jekyllthemes.io/theme/16221683/solo) by [chibicode](https://github.com/chibicode)
 ```
 
-## h2 hache dos
+## images and more paragraphs and code blocks
 
 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras pretium metus dui, nec facilisis mauris posuere quis. Donec elementum mattis dui, non vulputate nunc suscipit nec. Mauris tortor dui, efficitur vel pretium nec, molestie eget urna. Nunc erat arcu, consectetur sed felis sit amet, viverra eleifend arcu. Praesent vel tellus ac enim convallis consequat. Donec mattis laoreet est ac fringilla. Duis eu leo libero. Nam lacinia pulvinar augue, ut ultricies ipsum varius sit amet. Nullam augue nunc, laoreet nec ante quis, sollicitudin fringilla orci. Donec cursus ac velit quis faucibus. Phasellus mattis pretium rutrum. Integer sed sollicitudin erat. Curabitur venenatis ligula quis lorem facilisis laoreet. Nunc a erat ac ipsum commodo tempor at eu turpis. Nulla in neque turpis.
 
@@ -227,7 +240,7 @@ d4 silence
 </html>
 ```
 
-## h2 hache dos
+## tables and more code blocks
 
 Haz clic en cualquier imagen para verla en tamaño completo.
 
