@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# jorge rangel
+# @jarxg :: jorge rangel
 
 i use computers to make images and sounds.
 
