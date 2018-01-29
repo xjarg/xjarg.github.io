@@ -14,7 +14,7 @@ i'm on [twitter](https://www.twitter.com/jarxg). i have some [github](https://gi
 
 ## music
 
-[tidalcycles music repository](https://github.com/jarxg/my_tidalcycles_stuff)
+[tidalcycles music repository](https://github.com/jarxg/tidal-sketchbook)
 
 [bandcamp](http://jarxg.bandcamp.com), currently on hiatus
 
