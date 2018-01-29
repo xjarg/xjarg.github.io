@@ -8,7 +8,7 @@ i use computers to make images and sounds.
 
 ---
 
-i'm on [twitter](https://www.twitter.com/jarxg)
+i'm on [twitter](https://www.twitter.com/jarxg). i have some [github](https://github.com/jarxg) repositories. i have a [doghter](assets/index-d8fbf.png) called Nona.  
 
 ---
 
@@ -16,11 +16,11 @@ i'm on [twitter](https://www.twitter.com/jarxg)
 
 [tidalcycles music repository](https://github.com/jarxg/my_tidalcycles_stuff)
 
-[discography](discography)
-
 [bandcamp](http://jarxg.bandcamp.com), currently on hiatus
 
 [soundcloud](https://soundcloud.com/jarxg)
+
+[downloads](https://mega.nz/#F!uoghwLrb!2KiZVUxpXL7iQqHjCnOZXA)
 
 ## discography
 
@@ -53,8 +53,6 @@ i'm on [twitter](https://www.twitter.com/jarxg)
 - AROUND HOME (2016)  
 - [Aquí yace la máquina de escribir](https://losdecadentesdelinares.bandcamp.com/album/aqu-yace-la-m-quina-de-escribir) (@ [Los Decadentes de Linares](https://losdecadentesdelinares.bandcamp.com)) (2017)  
 - [Recuerdos Divididos EP](https://jarxg.bandcamp.com/album/recuerdos-divididos-ep) ([on YouTube](https://www.youtube.com/watch?v=2B9qvX7q7Ys)) (+ [R. Yedras](https://twitter.com/ryedras)) (2017)
-
-send me an email (mail[at]jrangel[dot]net) if you want any of the unlinked albums.
 
 ---
 

@@ -30,5 +30,3 @@ title: homepage
 <i class="fa fa-wikipedia-w" aria-hidden="true"></i> [wikipedia (english)](https://en.wikipedia.org/wiki/Main_Page) :: [random](https://en.wikipedia.org/wiki/Special:Random)
 
 <i class="fa fa-wikipedia-w" aria-hidden="true"></i> [wikipedia (español)](https://es.wikipedia.org/wiki/Main_Page) :: [random](https://es.wikipedia.org/wiki/Special:Random)
-
-<i class="fa fa-link" aria-hidden="true"></i> [gwern](http://www.gwern.net)
