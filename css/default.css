@@ -123,7 +123,7 @@ pre>code {
 }
 
 .container {
-    max-width: 750px;
+    max-width: 80ch;
     margin: 0 auto;
     padding: 0 1rem;
 }

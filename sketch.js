@@ -1,39 +1,29 @@
 console.log("what are you looking at? :)");
 
-var iX1, iY1, iZ1, iX2, iY2, iZ2 = 0;
-
-function dome(st, iX, iY, iZ) {
-    rotateX(frameCount * iX);
-    rotateY(frameCount * iY);
-    rotateZ(frameCount * iZ);
-    noFill();
-    stroke(st);
-    strokeWeight(1);
-    sphere(250);
-}
+let ixa, iyb, izc = 0;
 
 function setup() {
     background(0, 0, 0, 0);
-    var w = document.body.clientWidth;
-    var h = document.body.clientHeight;
-    var canvas = createCanvas(w, h, WEBGL);
+    let w = document.body.clientWidth;
+    let h = document.body.clientHeight;
+    let canvas = createCanvas(w, h, WEBGL);
     canvas.position(0, 0);
     canvas.style('z-index', '-1');
-    iX1 = random(-0.0025, 0.0025);
-    iY1 = random(-0.0025, 0.0025);
-    iZ1 = random(-0.0025, 0.0025);
-    iX2 = random(-0.0025, 0.0025);
-    iY2 = random(-0.0025, 0.0025);
-    iZ2 = random(-0.0025, 0.0025);
+    ixa = random(-0.0125, 0.0125);
+    iyb = random(-0.0125, 0.0125);
+    izc = random(-0.0125, 0.0125);
 }
 
 function draw() {
-    background(0, 0, 0, 0);
-    camera(0, 0, 250, 0, 0, 0, 0, 1, 0);
-    dome(33, iX1, iY1, iZ1);
-    dome(22, iX2, iY2, iZ2);
+    background(44);
+    noStroke();
+    normalMaterial();
+    rotateX(frameCount * ixa);
+    rotateY(frameCount * iyb);
+    rotateZ(frameCount * izc);
+    box(2000, 4000, 4000);
 }
 
 function windowResized() {
-    resizeCanvas(document.body.clientWidth, document.body.clientHeight);
+    resizeCanvas(document.body.clientWidth, document.body.clientlHeight);
 }
