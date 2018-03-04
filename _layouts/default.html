@@ -2,11 +2,12 @@
 <html>
 
 <!--
-
-____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____
-||j |||a |||r |||x |||g |||. |||g |||i |||t |||h |||u |||b |||. |||i |||o ||
-||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__||
-|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|
+   ____   _
+  / __ \ (_) __ _ _ ____  ____ _
+ / / _` || |/ _` | '__\ \/ / _` |
+| | (_| || | (_| | |   >  < (_| |
+ \ \__,_|/ |\__,_|_|  /_/\_\__, |
+  \____/__/                |___/
 
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
@@ -22,7 +23,6 @@ site, the artist's URL is the only guarantor that one is viewing the
 -->
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="{{ site.description }}">
@@ -32,13 +32,15 @@ site, the artist's URL is the only guarantor that one is viewing the
     <script src="https://use.fontawesome.com/5c65c7cca4.js"></script>
     <script src="{{ base.url }}/libraries/p5.min.js"></script>
 	<script src="{{ base.url }}/libraries/p5.dom.min.js"></script>
-	<script src="{{ base.url }}/libraries/p5.sound.min.js"></script>
+	<!-- <script src="{{ base.url }}/libraries/p5.sound.min.js"></script> -->
     <script src="{{ base.url }}/sketch.js"></script>
 </head>
 
 <body>
     <div class="container">
-        {{ content }}
+        <div class="screen">
+            {{ content }}
+        </div>
     </div>
 </body>
 

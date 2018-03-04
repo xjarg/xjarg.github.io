@@ -3,9 +3,9 @@
 body {
     font-family: Menlo, Consolas, monospace;
     font-size: 14px;
-    margin: 2rem 0 5rem;
+    margin: 2.5rem;
     color: #fff;
-    background: #2c2c2c;
+    background: #161616;
 }
 
 a {
@@ -25,9 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    text-transform: uppercase;
-    margin-top: 2.5rem;
-    margin-bottom: 1.25rem;
+    /* margin-top: 1.25rem; */
 }
 
 h1 a {
@@ -41,8 +39,8 @@ h1 a:hover {
 }
 
 h2 {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    /* margin-top: 1.25rem;
+    margin-bottom: 1.25rem; */
 }
 
 h2 a {
@@ -56,7 +54,7 @@ h2 a:hover {
 }
 
 h3, h4, h5, h6 {
-    margin-top: 1.25rem;
+    /* margin-top: 1.25rem; */
 }
 
 dd {
@@ -125,7 +123,6 @@ pre>code {
 .container {
     max-width: 80ch;
     margin: 0 auto;
-    padding: 0 1rem;
 }
 
 /*! syntax.css */
