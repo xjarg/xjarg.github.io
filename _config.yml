@@ -1,10 +1,11 @@
 # Site settings
 title: jarxg.github.io
-tag_text: jorge rangel
-description: jorge rangel personal page
+tag_text: jarxg
+description: jarxg personal page
 
 # Build settings
 markdown: kramdown
 exclude: ["README.md"]
+plugins: ['jekyll-twitter-plugin']
 sass:
   style: compressed
