@@ -19,9 +19,9 @@ layout: default
 
 ![](imgs/@jarxg.png)
 
-i use computers to make texts, sounds and images.  
+i make texts, sounds and images with computers.  
 i'm the proud dad of a boston terrier known as [nona](imgs/nona.jpg) and we live in northern mexico.  
-cv available on request.
+my cv is available on request.
 
 i'm on <a href="https://www.twitter.com/jarxg" rel="me">twitter</a> and <a href="https://github.com/jarxg" rel="me">github</a>
 
