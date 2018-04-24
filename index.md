@@ -7,7 +7,7 @@ layout: default
 
 <div class="h-card">
 <a class="p-name u-url" href="http://jarxg.github.io" rel="me">jorge rangel</a>
-<a class="p-nickname u-url" href="https://www.twitter.com/jarxg" rel="me">@jarxg</span>
+<a class="p-nickname u-url" href="https://www.twitter.com/jarxg" rel="me">@jarxg</a>
 ::
 <a class="u-email" href="mailto:jarg1985@gmail.com">jarg1985@gmail.com</a>
 ::
