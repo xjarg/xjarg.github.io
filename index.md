@@ -7,7 +7,7 @@ layout: default
 
 <div class="h-card">
 <a class="p-name u-url" href="http://jarxg.github.io" rel="me">jorge rangel</a>
-<span class="p-nickname" >@jarxg</span>
+<a class="p-nickname u-url" href="https://www.twitter.com/jarxg" rel="me">@jarxg</span>
 ::
 <a class="u-email" href="mailto:jarg1985@gmail.com">jarg1985@gmail.com</a>
 ::
@@ -23,7 +23,7 @@ i make texts, sounds and images with computers.
 i'm the proud dad of a boston terrier known as [nona](imgs/nona.jpg) and we live in northern mexico.  
 my cv is available on request.
 
-i'm on <a href="https://www.twitter.com/jarxg" rel="me">twitter</a> and <a href="https://github.com/jarxg" rel="me">github</a>
+i'm on [twitter](https://www.twitter.com/jarxg) and [github](https://github.com/jarxg). you can also find me on [instapaper](https://www.instapaper.com/p/jarxg), [goodreads](https://www.goodreads.com/jarxg), [tumblr](https://jarxg.tumblr.com), among other places.
 
 ---
 
