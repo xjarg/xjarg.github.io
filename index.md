@@ -29,8 +29,7 @@ i'm on [twitter](https://www.twitter.com/jarxg) and [github](https://github.com/
 
 ## what i make
 
-**texts**  
-**prose**: [pakistán records](https://pakistan-records.tumblr.com)  
+**texts**: [pakistán records](https://pakistan-records.tumblr.com)  
 **bots**: [bots repository](https://github.com/jarxg/cheapbots) :: [@bot_de_pelis](https://twitter.com/bot_de_pelis) (sp, 2017) :: [@numenerabot](https://twitter.com/numenerabot) (en, 2017)  
 **twine**: [lecture on nothing](twine/nothing.html) (2015)
 
