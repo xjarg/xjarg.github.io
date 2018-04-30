@@ -9,12 +9,13 @@ body {
 }
 
 a {
-    color: #ffffff;
-    text-decoration: underline;
+    color: #ccccff;
+    text-decoration: none;
 }
 
 a:focus, a:hover {
-    text-decoration: none;
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,12 +26,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+    color: #ccffcc;
     /* margin-top: 1.25rem; */
 }
 
 h1 a {
-    color: #ffffff;
-    text-decoration: none;
+    color: #ccccff;
+    text-decoration: nonde;
 }
 
 h1 a:hover {
@@ -39,12 +41,13 @@ h1 a:hover {
 }
 
 h2 {
+    color: #ccffcc;
     /* margin-top: 1.25rem;
     margin-bottom: 1.25rem; */
 }
 
 h2 a {
-    color: #ffffff;
+    color: #ccccff;
     text-decoration: none;
 }
 
@@ -54,6 +57,7 @@ h2 a:hover {
 }
 
 h3, h4, h5, h6 {
+    color: #ccffcc;
     /* margin-top: 1.25rem; */
 }
 

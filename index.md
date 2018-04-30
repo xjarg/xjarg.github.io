@@ -3,8 +3,6 @@ title: home
 layout: default
 ---
 
-# {{ page.title }} @ {{ site.title }}
-
 <div class="h-card">
 <a class="p-name u-url" href="http://jarxg.github.io" rel="me">jorge rangel</a>
 <a class="p-nickname u-url" href="https://www.twitter.com/jarxg" rel="me">@jarxg</a>
@@ -17,13 +15,20 @@ layout: default
 <span class="p-country-name">méxico</span>
 </div>
 
-![](imgs/@jarxg.png)
-
 i make texts, sounds and images with computers.  
 i'm the proud dad of a boston terrier known as [nona](imgs/nona.jpg) and we live in northern mexico.  
-my cv is available on request.
+my cv is available on request.  
+[here](imgs/@jarxg.png)'s a pixelated image of me.
 
 i'm on [twitter](https://www.twitter.com/jarxg) and [github](https://github.com/jarxg). you can also find me on [instapaper](https://www.instapaper.com/p/jarxg), [goodreads](https://www.goodreads.com/jarxg), [tumblr](https://jarxg.tumblr.com), among other places.
+
+---
+
+## [blog](blog) v.0.1
+
+{% for item in site.posts %}
+{{ item.date | date: "%Y-%m-%d" }} :: [{{ item.title }}]({{ item.url }}) [{{ item.language }}, {{ item.content | number_of_words }} words]
+{% endfor %}
 
 ---
 
