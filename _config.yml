@@ -11,4 +11,4 @@ sass:
   style: compressed
 
 collections:
-  _posts
+- _posts
