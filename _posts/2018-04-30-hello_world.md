@@ -5,5 +5,5 @@ date: 2018-04-30
 language: en
 ---
 
-Hello, world! This is a test post for my blog. I just set it up using Jekyll in under 30 minutes, all manually and it's already up and running it seems. I haven't implemented tags or anything fancy but it works. Maybe later.  
-I'm not using time on my page.date tag, so I'll limit myself to one post a day. If eventually I write multiple things in one given day I can implement that in mere minutes, so no big deal.
+hello, world! this is a test post for my blog. i just set it up using jekyll in under 30 minutes, all manually and it's already up and running it seems. i haven't implemented tags or anything fancy but it works. maybe later.  
+i'm not using time on my page.date tag, so i'll limit myself to one post a day. if eventually i write multiple things in one given day i can implement that in mere minutes, so no big deal.

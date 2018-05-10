@@ -4,61 +4,23 @@ body {
     font-family: Menlo, Consolas, monospace;
     font-size: 14px;
     margin: 2.5rem;
-    color: #fff;
+    color: #DCFFFD;
     background: #2c2c2c;
 }
 
 a {
-    color: #ccccff;
+    color: #8CFF98;
     text-decoration: none;
 }
 
 a:focus, a:hover {
-    color: #ffffff;
-    text-decoration: underline;
+    color: #DCFFFD;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     line-height: 1;
-    color: #ffffff;
-    text-rendering: optimizeLegibility;
-}
-
-h1 {
-    color: #ccffcc;
-    /* margin-top: 1.25rem; */
-}
-
-h1 a {
-    color: #ccccff;
-    text-decoration: nonde;
-}
-
-h1 a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-}
-
-h2 {
-    color: #ccffcc;
-    /* margin-top: 1.25rem;
-    margin-bottom: 1.25rem; */
-}
-
-h2 a {
-    color: #ccccff;
-    text-decoration: none;
-}
-
-h2 a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-}
-
-h3, h4, h5, h6 {
-    color: #ccffcc;
-    /* margin-top: 1.25rem; */
+    color: #5EB1BF;
 }
 
 dd {
@@ -773,4 +735,3 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-l
