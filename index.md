@@ -23,10 +23,22 @@ i'm @jarxg. i make texts, sounds and images with computers. i'm the proud dad of
 
 ---
 
-## blog posts
+## blog index
 
 {% for item in site.posts %}
 {{ item.date | date: "%Y-%m-%d" }} :: [{{ item.title }}]({{ item.url }}) [{{ item.language }}, {{ item.content | number_of_words }} words]
+{% endfor %}
+
+---
+
+## blog posts
+
+{% for item in site.posts %}
+
+# {{ item.date | date: "%Y-%m-%d" }} :: [{{ item.title }}]({{ item.url }}) [{{ item.language }}, {{ item.content | number_of_words }} words]
+
+{{ item.content }}
+
 {% endfor %}
 
 ---
