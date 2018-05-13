@@ -3,7 +3,7 @@ title: home
 layout: default
 ---
 
-i'm @jarxg. i make texts, sounds and images with computers. i'm the proud dad of a boston terrier known as [nona](imgs/nona.jpg) and we live in northern mexico. my cv is available on request. [here](imgs/@jarxg.png)'s a pixelated image of me. i'm on [twitter](https://www.twitter.com/jarxg) and [github](https://github.com/jarxg). you can also find me on [instapaper](https://www.instapaper.com/p/jarxg), [goodreads](https://www.goodreads.com/jarxg), [tumblr](https://jarxg.tumblr.com), among other places. i use [email](mailto:jarg1985@gmail.com).
+i'm @jarxg. i make texts, sounds and images with computers. i'm the proud dad of a boston terrier known as [nona](imgs/nona.jpg) and we live in northern mexico. my cv is available on request. [here](imgs/@jarxg.png)'s a pixelated image of me. i'm on [twitter](https://www.twitter.com/jarxg), [github](https://github.com/jarxg), [instapaper](https://www.instapaper.com/p/jarxg), [goodreads](https://www.goodreads.com/jarxg), [tumblr](https://jarxg.tumblr.com), among other places. i use [email](mailto:jarg1985@gmail.com) and have a [blog](blog).
 
 ---
 
@@ -19,12 +19,11 @@ i'm @jarxg. i make texts, sounds and images with computers. i'm the proud dad of
 
 ## what i use
 
-animoog :: ardour :: audacity :: bosca ceoil :: calibre :: cmus :: emacs :: figure :: filtatron :: garageband :: gimp :: github desktop :: iannix :: imovie :: inkscape :: jekyll :: live :: lnx studio :: macos :: max :: magicavoxel :: mixtkl :: nanoloop :: numbers :: p5.js :: pages :: pd :: pico-8 :: pixelmator :: processing :: quartz composer :: quicktime :: rainbowstream :: renoise :: sonicpi :: steam :: sublime text :: sunvox :: supercollider :: take :: tidalcycles :: touchosc :: twine :: vcv rack :: vlc
+[animoog](https://www.moogmusic.com/products/apps/animoog-0) :: [ardour](https://ardour.org) :: [audacity](https://www.audacityteam.org) :: [bosca ceoil](https://boscaceoil.net) :: [calibre](https://calibre-ebook.com) :: [cheap bots, done quick!](https://cheapbotsdonequick.com) :: [cmus](https://cmus.github.io) :: [emacs](https://www.gnu.org/software/emacs/) :: [figure](https://allihoopa.com/apps/figure) :: [filtatron](https://www.moogmusic.com/products/apps/filtatron) :: [garageband](https://www.apple.com/mac/garageband/) :: [gimp](http://www.gimp.org) :: [github](https://github.com) :: [github desktop](https://desktop.github.com) :: [gravit designer](https://www.designer.io) :: [giphy capture](https://giphy.com/apps/giphycapture) :: [gmail](http://gmail.com) :: [homebrew](https://brew.sh) :: [iannix](https://www.iannix.org) :: [imovie](https://www.apple.com/imovie/) :: [inkscape](https://inkscape.org) :: [jekyll](https://jekyllrb.com) :: [live](https://www.ableton.com/en/live/) :: [lnx studio](http://lnxstudio.sourceforge.net) :: [localtunnel](https://localtunnel.github.io/www/) :: [macos](https://www.apple.com/mx/macos/high-sierra/) :: [max](https://cycling74.com/products/max) :: [magicavoxel](https://ephtracy.github.io) :: [mixtkl](https://intermorphic.com/mixtikl/) :: [nanoloop](http://www.nanoloop.com) :: [numbers](https://www.apple.com/numbers/) :: [p5.js](https://p5js.org) :: [pages](https://www.apple.com/pages/) :: [pd](https://puredata.info) :: [pico-8](https://www.lexaloffle.com/pico-8.php) :: [processing](https://processing.org) :: [quartz composer](https://en.wikipedia.org/wiki/Quartz_Composer) :: [quicktime](https://en.wikipedia.org/wiki/QuickTime) :: [rainbowstream](https://github.com/orakaro/rainbowstream) :: [renoise](http://renoise.com) :: [sonic pi](https://sonic-pi.net) :: [steam](https://store.steampowered.com) :: [sublime text](https://www.sublimetext.com) :: [sunvox](http://www.warmplace.ru/soft/sunvox/) :: [supercollider](https://supercollider.github.io) :: [take](https://allihoopa.com/apps/take) :: [tidalcycles](https://tidalcycles.org) :: [touchosc](https://hexler.net/software/touchosc) :: [tracery](http://tracery.io) :: [twine](http://twinery.org) :: [twitter](https://twitter.com) :: [vcv rack](https://vcvrack.com) :: [vlc](https://www.videolan.org/vlc)
 
 ---
 
-
-## [blog](blog) v.0.1
+## blog posts
 
 {% for item in site.posts %}
 {{ item.date | date: "%Y-%m-%d" }} :: [{{ item.title }}]({{ item.url }}) [{{ item.language }}, {{ item.content | number_of_words }} words]
@@ -33,4 +32,4 @@ animoog :: ardour :: audacity :: bosca ceoil :: calibre :: cmus :: emacs :: figu
 ---
 
 [cc by 4.0](http://creativecommons.org/licenses/by-sa/4.0/) |
-theme is [solo](https://jekyllthemes.io/theme/16221683/solo) by [chibicode](https://github.com/chibicode), modified by me.
+theme used to be [solo](https://jekyllthemes.io/theme/16221683/solo) by [chibicode](https://github.com/chibicode).
