@@ -13,8 +13,6 @@ title: blog
 ---
 {% endfor %}
 
----
-
 # blog posts
 
 {% for item in site.posts %}

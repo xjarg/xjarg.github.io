@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: default
+type: blog
 title: hello world!
 date: 2018-04-30
 location: saltillo
