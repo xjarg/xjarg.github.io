@@ -1,5 +1,5 @@
 ---
-title: home
+title: index
 layout: default
 ---
 
@@ -29,9 +29,9 @@ i'm @jarxg. i make texts, sounds and images with computers. i'm the proud dad of
 {{ item.date | date: "%Y-%m-%d" }} :: [{{ item.title }}]({{ item.url }}) [{{ item.language }}, {{ item.content | number_of_words }} words]
 {% endfor %}
 
----
+## last post
 
-{% for item in site.posts %}
+{% for item in site.posts limit:5 %}
 
 # {{ item.date | date: "%Y-%m-%d" }} :: [{{ item.title }}]({{ item.url }}) [{{ item.language }}, {{ item.content | number_of_words }} words]
 

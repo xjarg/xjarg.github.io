@@ -47,12 +47,13 @@ tags: family films projects sabinas writing
 in addition to that, there is another conditional in default.html (the layout file) that changes the ```<title>``` tag acordingly so the browser tabs display the date when the user is reading a single post.  
 (i'm not sure how to post liquid in jekyll within code blocks, the engine just parses it instead of rendering as part of the block. help, anyone.)  
 the entries themselves work more like in-progress texts until the point where i push them to the repository[^repository_push]. and, as i implied before, even after that they are still open to editing and fine-tuning, so to speak. it would be a sin to keep something fixed and *definitive* in github. that's not what github is for, quite the opposite. i think that should be true for both code and text––not that code and text are mutually exclusive categories, of course[^on_the_blog].  
+i'm no developer. in fact, i consider myself a pretty mediocre coder. but hey, i'm having fun.
 
 ## from the road
 
 i'm writing this aboard a del norte bus. i am at the central in monclova, waiting for passengers and for the cleaning guy to sweep the aisle. some gringo mormon missionary just got on the bus. the other missionaries are saying goodbye from the andén. they seem happy. enthusiastic. most of all, they seem *sincere*. i'm not sure if that's happy or sad. i just stopped knowing al ong time ago.  
-how much does sublime text cost? definitely worth paying for it just for the time it takes to launch, about 1/10th of the time it takes atom. atom has more and more interesting add-ons but really, it's slow as hell.  
-the bus is moving and nobody got on it to sell us coca colas or something and i'm desperately need something to drink. it's gonna be a long monclova-saltillo. the next coke[^coke] i drink is going to be glorious, though.  
+how much does sublime text cost? definitely worth paying for it just for the time it takes to launch, about 1/10th of the time it takes atom. atom has more and more interesting add-ons but really, it's slow as hell. anyways, most of the time i write in sublime text but every once in a while i'll write on emacs. i don't really understand emacs beyond the things i use it for: writing markdown and running tidalcycles.[^tidal]  
+the bus is moving and nobody got on it to sell us coca colas or something and i'm desperately need something to drink. it's gonna be a long monclova-saltillo. the next coke i drink is going to be glorious, though.  
 (yeah: i just received a sandwich, some cheetos and a coke as part of the trip (didn't remember this bus was a "diamante"). the sandwich is made of sadness and sorrow and the cheetos are cheetos... but i've got a fucking coke, baby, yeah!)  
 i'm eating some carne seca from roncesvalles. this stuff is really good so i decide this post is finished. i have no internet so it will appear on my site *eventually*.
 
@@ -60,4 +61,4 @@ i'm eating some carne seca from roncesvalles. this stuff is really good so i dec
 
 [^on_the_blog]: now, i know this section and these footnotes are a little too "meta". i confess my sins but don't repent: i love talking about processes. but (and that's the reason for all of this) i know most people don't enjoy talking about processes. most of the time, i think, interesting processes (i.e. processes that can be find interesting not only by colleagues but by that ambiguos entity called *most everyone*, trademark pending) are not something they usually find in their lives or know how to identificate. whatever the reason, this footnote is getting longer and way more boring than it should.
 
-[^coke]: because i do love coke. no shame on it: give me la chispa de la vida anytime.
+[^tidal]: these are the steps i take to run tidal: use tmux to divide the terminal screen into two panes. i will then run sclang in one of the panes, usually the left one. there i'll quickly setup the output and launch SuperDirt. on the other pane i'll launch emacs, open my boot.tidal, launch haskell and tidal, and execute boot.tidal. at this point i can create a new file or open and existing one and start making sounds.

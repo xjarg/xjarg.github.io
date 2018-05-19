@@ -1,14 +1,18 @@
 # Site settings
 title: jarxg.github.io
 tag_text: jarxg
-description: jarxg personal page
+description: jarxg personal page and blog
 
 # Build settings
 markdown: kramdown
 exclude: ["README.md"]
-plugins: ['jekyll-twitter-plugin']
-sass:
-  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-mentions
 
 collections:
 - _posts
+- _texts
+
+jekyll-mentions: https://twitter.com

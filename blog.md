@@ -1,6 +1,6 @@
 ---
-layout: default
 title: blog
+layout: default
 ---
 
 ---
@@ -15,6 +15,6 @@ title: blog
 
 # blog posts
 
-{% for item in site.posts %}
+{% for item in site.posts limit:5 %}
 {{ item.date | date: "%Y-%m-%d" }} :: [{{ item.title }}]({{ item.url }}) [{{ item.language }}, {{ item.content | number_of_words }} words]
 {% endfor %}
