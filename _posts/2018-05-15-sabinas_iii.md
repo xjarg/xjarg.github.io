@@ -1,11 +1,14 @@
 ---
+
 layout: default
 type: blog
 title: sabinas iii
 date: 2018-05-15
 location: sabinas
 language: en
+category: blog
 tags: family films projects sabinas writing
+
 ---
 
 > it once happened to me that i stopped reading for a moment to do something else. after a few minutes away from my reading device, i went back to it in a hurry, thinking it might lock the screen. which makes sense if i had been reading on my kindle... i wasn't: my reading device was a book.

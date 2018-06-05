@@ -1,11 +1,14 @@
 ---
+
 layout: default
 type: blog
 title: sabinas ii
 date: 2018-05-13
 location: sabinas
 language: en
+category: blog
 tags: projects sabinas writing
+
 ---
 
 i'm kind of sad that i'm leaving sabinas tomorrow. but i'm also enthusiastic about some things that happened and things i learned these days and nights. i've organized my projects and i'm going back to saltillo with clearer a purpose when it comes to the things i want to work on the rest of the year. most of them involve my hometown in one way or another[^sabinas], as i think i've already said: a short stories collection, a series of writing workshops, a book about regional music and a collaboration about baseball are all situated here. i want them all to happen but i have to organize myself if want them to.

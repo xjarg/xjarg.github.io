@@ -1,6 +1,8 @@
 ---
+
 title: index
 layout: default
+
 ---
 
 i'm @jarxg. i make texts, sounds and images with computers. i'm the proud dad of a boston terrier known as [nona](assets/nona.jpg) and we live in northern mexico. my cv is available on request. [here](assets/@jarxg.png)'s a pixelated image of me. i'm on [twitter](https://www.twitter.com/jarxg), [github](https://github.com/jarxg), [instapaper](https://www.instapaper.com/p/jarxg), [goodreads](https://www.goodreads.com/jarxg), [tumblr](https://jarxg.tumblr.com), among other places. i use [email](mailto:jarg1985@gmail.com) and have a [blog](blog).

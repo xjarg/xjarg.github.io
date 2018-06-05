@@ -1,11 +1,14 @@
 ---
+
 layout: default
 type: blog
 title: al norte de la muralla
 date: 2018-05-10
 location: saltillo
 language: en
+category: blog
 tags: sabinas travel border blog
+
 ---
 
 tomorrow i'll travel to the north, all along the carretera federal 57, a scar on coahuila's face that connects piedras negras, a city across the río bravo (or río grande) from eagle pass, tx, with cdmx. i think about the impression those huge valleys had on the people exploring them thousands of years ago, even before the arrival of the spanish: their dreams, ambitions, dismay and agony. there's a natural wall dividing coahuila horizontally: la muralla. the south was long ago conquered territories of saltillo, parras and torreón. the north is recently conquered territory. these two parts of coahuila are so different they could be thousands of miles apart. most cities from the northern part of coahuila are just over a hundred years old. compared to saltillo's more than four hundred years of history that's fairly new. that is, in fact, mexico's frontier, the place where mexico stops being mexico and slowly, kind of painfully, starts it's transformation into usa. the border, the frontier, la frontera, is not a line: it's a gradient.
