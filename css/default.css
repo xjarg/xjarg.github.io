@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Ubuntu Mono', Menlo, Consolas, monospace;
-    font-size: 14px;
+    font-size: 16px;
     margin: 2.5rem;
     color: #DCFFFD;
     background: #2c2c2c;
@@ -58,13 +58,12 @@ td, th {
 }
 
 code {
-    font-family: Menlo, Consolas, monospace;
-    font-size: 14px;
+    font-family: 'Ubuntu Mono', Menlo, Consolas, monospace;
+    font-size: 16px;
     padding: 0.125rem 0.25rem;
 }
 
 code, pre {
-    font-family: inherit;
     background-color: #1c1c1c;
 }
 
@@ -487,7 +486,7 @@ mark {
    */
 
 code, kbd, pre, samp {
-    font-family: Menlo, Consolas, monospace;
+    font-family: 'Ubuntu Mono', Menlo, Consolas, monospace;
     font-size: 1em;
 }
 
