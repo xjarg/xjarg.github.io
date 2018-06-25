@@ -5,7 +5,7 @@ layout: default
 
 ---
 
-{% for item in site.posts %}[{{ item.url }}]({{ item.url }}) [{{ item.language}}, {{ item.content | number_of_words }} words]  
+{% for item in site.posts %}[{{ item.url }}]({{ item.url }}) [{{ item.language}}, {{ item.content | number_of_words }} words]
 {% endfor %}
 
 ---
@@ -20,5 +20,5 @@ layout: default
 
 ## blog posts
 
-{% for item in site.posts %}[{{ item.url }}]({{ item.url }}) [{{ item.language }}, {{ item.content | number_of_words }} words]  
+{% for item in site.posts %}[{{ item.url }}]({{ item.url }}) [{{ item.language }}, {{ item.content | number_of_words }} words]
 {% endfor %}

@@ -1,8 +1,7 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 
 body {
-    font-family: 'Ubuntu Mono', Menlo, Consolas, monospace;
+    font-family: Menlo, Consolas, monospace;
     font-size: 16px;
     margin: 2.5rem;
     color: #DCFFFD;
@@ -58,7 +57,7 @@ td, th {
 }
 
 code {
-    font-family: 'Ubuntu Mono', Menlo, Consolas, monospace;
+    font-family: Menlo, Consolas, monospace;
     font-size: 16px;
     padding: 0.125rem 0.25rem;
 }
@@ -486,7 +485,7 @@ mark {
    */
 
 code, kbd, pre, samp {
-    font-family: 'Ubuntu Mono', Menlo, Consolas, monospace;
+    font-family: Menlo, Consolas, monospace;
     font-size: 1em;
 }
 
