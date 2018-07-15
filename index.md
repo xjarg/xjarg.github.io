@@ -5,23 +5,7 @@ layout: default
 
 ---
 
-i'm @jarxg. i make texts, sounds and images with computers. i'm the proud dad of a boston terrier known as [nona](assets/nona.jpg) and we live in northern mexico. my cv is available on request. [here](assets/@jarxg.png)'s a pixelated image of me. i'm on [twitter](https://www.twitter.com/jarxg), [github](https://github.com/jarxg), [instapaper](https://www.instapaper.com/p/jarxg), [goodreads](https://www.goodreads.com/jarxg), [tumblr](https://jarxg.tumblr.com), among other places. i use [email](mailto:jarg1985@gmail.com) and have a [blog](blog).
-
----
-
-## what i make
-
-**texts**: [pakistán records](https://pakistan-records.tumblr.com) :: [bots repository](https://github.com/jarxg/cheapbots) :: [@bot_de_pelis](https://twitter.com/bot_de_pelis) (es, 2017) :: [@numenerabot](https://twitter.com/numenerabot) (en, 2017) :: [lecture on nothing](twine/nothing.html) (2015)
-
-**sounds**: [tidalcycles music repository](https://github.com/jarxg/tidal-sketchbook) :: [bandcamp](http://jarxg.bandcamp.com) :: [soundcloud](https://soundcloud.com/jarxg) :: rainy ep: historia de un día lluvioso (2006) :: [dysmorphophobia](https://jarxg.bandcamp.com/album/dysmorphophobia) (2006) :: "mushrooms" (2008) :: 1d ep (2008) :: música de vidrio (2009) :: [dots](https://jarxg.bandcamp.com/album/dots) (2010) :: [reverie: a portrait of you](https://jarxg.bandcamp.com/album/reverie-a-portrait-of-you) (2010) :: seis piezas para videos (2010) :: melisma: one more portrait of you (2011) :: "...mensajes cifrados desde un planeta más allá de alfa centauro" (2011) :: plexo (2012) :: [38-8,1](https://jarxg.bandcamp.com/album/38-81) (2012) :: [38-8,2](https://jarxg.bandcamp.com/album/38-82) (2012) :: ghst (2012) :: [sentado en baker street](https://idmachine.bandcamp.com/album/sentado-en-baker-street) (@ [id machine](https://idmachine.bandcamp.com)) (2013) :: [canciones para fiestas de hipsters felices tomando aguas locas](https://idmachine.bandcamp.com/album/canciones-para-fiestas-de-hipsters-felices-tomando-aguas-locas) (@ [id machine](https://idmachine.bandcamp.com)) (2013) :: btl.ep (as jar g.) (2014) :: lines, vol. i (2014) :: あなたは誰 ep (as excel '97) (2014) :: [mobile ep 01](https://jarxg.bandcamp.com/album/mobile-ep-01) (as jar g.) (2014) :: [la nave de china](https://idmachine.bandcamp.com/album/la-nave-de-china) (@ [id machine](https://idmachine.bandcamp.com)) (2014) :: r e s p u e s t a s (@ [experimentrío](https://hectorzarate.bandcamp.com)) (2015) :: lines, vol. ii: hybris (2016) :: [schippers straat](https://losdecadentesdelinares.bandcamp.com/album/schippers-straat) (@ [los decadentes de linares](https://losdecadentesdelinares.bandcamp.com)) (2016) :: multi-branched analepsis, vol. 1 (2016) :: multi​-​branched analepsis, vol. 2 (2016) :: [around home](https://jarxg.bandcamp.com/album/around-home) (2016) :: [aquí yace la máquina de escribir](https://losdecadentesdelinares.bandcamp.com/album/aqu-yace-la-m-quina-de-escribir) (@ [los decadentes de linares](https://losdecadentesdelinares.bandcamp.com)) (2017) :: [recuerdos divididos ep](https://jarxg.bandcamp.com/album/recuerdos-divididos-ep) ([on youtube](https://www.youtube.com/watch?v=2b9qvx7q7ys)) (+ [r. yedras](https://twitter.com/ryedras)) (2017) :: sc-171125-044232-aiff (2017) :: [RETR_II​.​XCPA​@​89](https://jarxg.bandcamp.com/album/retr-ii-xcpa-89) :: [download (almost) all the albums from mega](https://mega.nz/#f!uoghwlrb!2kizvuxpxl7iqqhjcnozxa)
-
-**images**: [instagram](https://instagram.com/jarxg) [on hiatus] :: ♫ [permanencia voluntaria](https://vimeo.com/39743397), @ el taller de la caballeriza (digital video, 7'32", 2009) :: ♫ [lección de biología](https://www.youtube.com/watch?v=5ai3powojoe), + mónica álvarez & julián herbert @ el taller de la caballeriza (animation, 1'14", 2009) :: [1.6180339887](https://vimeo.com/39391488), + julián herbert. (digital video, 5'06", 2010) :: [malas palabras](https://vimeo.com/31437957), + luis alberto arellano. (digital video, 1'06", 2011) :: ✄ [el triste hígado](https://vimeo.com/39122549), + efraín velasco. (digital video, 2'51", 2012) :: [b. 1,3](https://vimeo.com/67617810) (digital video, 9'51", 2013) [le](https://vimeo.com/64741257) (digital video, 11'41", 2013) :: [suspensiones voluntarias de la incredulidad](https://www.youtube.com/watch?v=xaxxdkqq2fm), + julián herbert (digital video, varias duraciones, 2014) :: [gota](https://vimeo.com/100379907) (2014) :: [summertime](https://vimeo.com/116725751) (2015) :: [super 8](https://www.youtube.com/playlist?list=plfaxzdwtu5br0dinnbvdjvs-rp0_mwdbo) (digital video series, 2015-2016) :: [termina coahuila principia nuevo león: autopista de haikús](https://www.youtube.com/watch?v=75b9tsa26ms), + f. carrillo, j. i. gonzález, i. luna, p. montes, f. sandoval & e. valero (digital video, 12'30", 2016) :: [analepsis01](https://www.youtube.com/watch?v=x90kbpatwl8) (digital video, 24'05" 2016) :: [molécula](https://www.youtube.com/watch?v=fqxbwxxegmg) (digital video, 27'00", 2016) :: analepsis02 (digital video, 12'06", 2016) :: [around home](https://www.youtube.com/watch?v=tp26q7gvrm0) (digital video, 13'23", 2016) :: snap (digital video, 5'10", 2016) :: ✄ ["la luna y el amor"](https://www.youtube.com/watch?v=xaxxdkqq2fm), + r. yedras (music video, 2'59", 2016) :: ["jardín"](https://www.youtube.com/watch?v=mbux7ehnld8), + r. yedras (digital video, 4'35", 2017) :: ♫ ["west condos"](https://www.youtube.com/watch?v=-7b3ao7ylak), + r. yedras (digital video, 6'06", 2017) :: macrobes (version 0.5) (digital video, 18'44", 2017) :: ("sinfonía sefardí")[https://www.youtube.com/watch?v=v0YEhnOkOek], + r. yedras (difital video, 4'24", 2018)
-
----
-
-## what i use
-
-[animoog](https://www.moogmusic.com/products/apps/animoog-0) :: [ardour](https://ardour.org) :: [audacity](https://www.audacityteam.org) :: [bosca ceoil](https://boscaceoil.net) :: [calibre](https://calibre-ebook.com) :: [cheap bots, done quick!](https://cheapbotsdonequick.com) :: [cmus](https://cmus.github.io) :: [emacs](https://www.gnu.org/software/emacs/) :: [figure](https://allihoopa.com/apps/figure) :: [filtatron](https://www.moogmusic.com/products/apps/filtatron) :: [garageband](https://www.apple.com/mac/garageband/) :: [gimp](http://www.gimp.org) :: [github](https://github.com) :: [github desktop](https://desktop.github.com) :: [gravit designer](https://www.designer.io) :: [giphy capture](https://giphy.com/apps/giphycapture) :: [gmail](http://gmail.com) :: [homebrew](https://brew.sh) :: [iannix](https://www.iannix.org) :: [imovie](https://www.apple.com/imovie/) :: [inkscape](https://inkscape.org) :: [jekyll](https://jekyllrb.com) :: [live](https://www.ableton.com/en/live/) :: [lnx studio](http://lnxstudio.sourceforge.net) :: [localtunnel](https://localtunnel.github.io/www/) :: [macos](https://www.apple.com/mx/macos/high-sierra/) :: [max](https://cycling74.com/products/max) :: [magicavoxel](https://ephtracy.github.io) :: [mixtkl](https://intermorphic.com/mixtikl/) :: [nanoloop](http://www.nanoloop.com) :: [numbers](https://www.apple.com/numbers/) :: [p5.js](https://p5js.org) :: [pages](https://www.apple.com/pages/) :: [pd](https://puredata.info) :: [pico-8](https://www.lexaloffle.com/pico-8.php) :: [processing](https://processing.org) :: [quartz composer](https://en.wikipedia.org/wiki/Quartz_Composer) :: [quicktime](https://en.wikipedia.org/wiki/QuickTime) :: [rainbowstream](https://github.com/orakaro/rainbowstream) :: [renoise](http://renoise.com) :: [sonic pi](https://sonic-pi.net) :: [steam](https://store.steampowered.com) :: [sublime text](https://www.sublimetext.com) :: [sunvox](http://www.warmplace.ru/soft/sunvox/) :: [supercollider](https://supercollider.github.io) :: [take](https://allihoopa.com/apps/take) :: [tidalcycles](https://tidalcycles.org) :: [touchosc](https://hexler.net/software/touchosc) :: [tracery](http://tracery.io) :: [twine](http://twinery.org) :: [twitter](https://twitter.com) :: [vcv rack](https://vcvrack.com) :: [vlc](https://www.videolan.org/vlc)
+i'm @jarxg. i make texts, sounds and images with computers. i'm the proud dad of a boston terrier known as [nona](assets/nona.jpg) and we live in northern mexico. my cv is available on request. [here](assets/@jarxg.png)'s a pixelated image of me. i'm on [twitter](https://www.twitter.com/jarxg), [github](https://github.com/jarxg), [instapaper](https://www.instapaper.com/p/jarxg), [goodreads](https://www.goodreads.com/jarxg), [tumblr](https://jarxg.tumblr.com), among other places. i use [email](mailto:jarg1985@gmail.com).
 
 ---
 
@@ -29,6 +13,83 @@ i'm @jarxg. i make texts, sounds and images with computers. i'm the proud dad of
 
 {% for item in site.posts %}[{{ item.url }}]({{ item.url }}) [{{ item.language }}, {{ item.content | number_of_words }} words]  
 {% endfor %}  
+
+---
+
+## what i make
+
+### texts
+
+[pakistán records](https://pakistan-records.tumblr.com)  
+[bots repository](https://github.com/jarxg/cheapbots)  
+[@bot_de_pelis](https://twitter.com/bot_de_pelis) (es, 2017)  
+[@numenerabot](https://twitter.com/numenerabot) (en, 2017)  
+[lecture on nothing](twine/nothing.html) (2015)  
+
+### sounds
+
+[tidalcycles music repository](https://github.com/jarxg/tidal-sketchbook)  
+[bandcamp](http://jarxg.bandcamp.com)  
+[soundcloud](https://soundcloud.com/jarxg)  
+rainy ep: historia de un día lluvioso (2006)  
+[dysmorphophobia](https://jarxg.bandcamp.com/album/dysmorphophobia) (2006)  
+[lección de biología](https://www.youtube.com/watch?v=5ai3powojoe) + mónica álvarez & julián herbert @ el taller de la caballeriza (animation, 1'14", 2009)  
+[permanencia voluntaria](https://vimeo.com/39743397) @ el taller de la caballeriza (digital video, 7'32", 2009)  
+"mushrooms" (2008), 1d ep (2008), música de vidrio (2009)  
+[dots](https://jarxg.bandcamp.com/album/dots) (2010)  
+[reverie: a portrait of you](https://jarxg.bandcamp.com/album/reverie-a-portrait-of-you) (2010)  
+seis piezas para videos (2010)  
+melisma: one more portrait of you (2011)  
+"...mensajes cifrados desde un planeta más allá de alfa centauro" (2011)  
+plexo (2012)  
+[38-8,1](https://jarxg.bandcamp.com/album/38-81) (2012)  
+[38-8,2](https://jarxg.bandcamp.com/album/38-82) (2012)  
+ghst (2012)  
+[sentado en baker street](https://idmachine.bandcamp.com/album/sentado-en-baker-street) (@ [id machine](https://idmachine.bandcamp.com)) (2013)  
+[canciones para fiestas de hipsters felices tomando aguas locas](https://idmachine.bandcamp.com/album/canciones-para-fiestas-de-hipsters-felices-tomando-aguas-locas) (@ [id machine](https://idmachine.bandcamp.com)) (2013)  
+btl.ep (as jar g.) (2014)  
+lines, vol. i (2014)  
+あなたは誰 ep (as excel '97) (2014)  
+[mobile ep 01](https://jarxg.bandcamp.com/album/mobile-ep-01) (as jar g.) (2014)  
+[la nave de china](https://idmachine.bandcamp.com/album/la-nave-de-china) (@ [id machine](https://idmachine.bandcamp.com)) (2014)  
+r e s p u e s t a s (@ [experimentrío](https://hectorzarate.bandcamp.com)) (2015)  
+lines, vol. ii: hybris (2016)  
+[schippers straat](https://losdecadentesdelinares.bandcamp.com/album/schippers-straat) (@ [los decadentes de linares](https://losdecadentesdelinares.bandcamp.com)) (2016)  
+multi-branched analepsis, vol. 1 (2016)  
+multi​-​branched analepsis, vol. 2 (2016)  
+[around home](https://jarxg.bandcamp.com/album/around-home) (2016)  
+[aquí yace la máquina de escribir](https://losdecadentesdelinares.bandcamp.com/album/aqu-yace-la-m-quina-de-escribir) (@ [los decadentes de linares](https://losdecadentesdelinares.bandcamp.com)) (2017)  
+[recuerdos divididos ep](https://jarxg.bandcamp.com/album/recuerdos-divididos-ep) ([on youtube](https://www.youtube.com/watch?v=2b9qvx7q7ys)) (+ [r. yedras](https://twitter.com/ryedras)) (2017)  
+sc-171125-044232-aiff (2017)  
+[RETR_II​.​XCPA​@​89](https://jarxg.bandcamp.com/album/retr-ii-xcpa-89)  
+
+### images
+
+[1.6180339887](https://vimeo.com/39391488) + julián herbert (digital video, 5'06", 2010)  
+[malas palabras](https://vimeo.com/31437957) + luis alberto arellano (digital video, 1'06", 2011)  
+[el triste hígado](https://vimeo.com/39122549) + efraín velasco (digital video, 2'51", 2012)  
+[b. 1,3](https://vimeo.com/67617810) (digital video, 9'51", 2013) [le](https://vimeo.com/64741257) (digital video, 11'41", 2013)  
+[suspensiones voluntarias de la incredulidad](https://www.youtube.com/watch?v=xaxxdkqq2fm) + julián herbert (digital videos, 2014)  
+[gota](https://vimeo.com/100379907) (2014)  
+[summertime](https://vimeo.com/116725751) (2015)  
+[super 8](https://www.youtube.com/playlist?list=plfaxzdwtu5br0dinnbvdjvs-rp0_mwdbo) (digital video series, 2015-2016)  
+[termina coahuila principia nuevo león: autopista de haikús](https://www.youtube.com/watch?v=75b9tsa26ms) + f. carrillo, j. i. gonzález, i. luna, p. montes, f. sandoval & e. valero (digital video, 12'30", 2016)  
+[analepsis01](https://www.youtube.com/watch?v=x90kbpatwl8) (digital video, 24'05" 2016)  
+[molécula](https://www.youtube.com/watch?v=fqxbwxxegmg) (digital video, 27'00", 2016)  
+analepsis02 (digital video, 12'06", 2016)  
+[around home](https://www.youtube.com/watch?v=tp26q7gvrm0) (digital video, 13'23", 2016)  
+snap (digital video, 5'10", 2016)  
+["la luna y el amor"](https://www.youtube.com/watch?v=xaxxdkqq2fm) + r. yedras (music video, 2'59", 2016)  
+["jardín"](https://www.youtube.com/watch?v=mbux7ehnld8) + r. yedras (digital video, 4'35", 2017)  
+["west condos"](https://www.youtube.com/watch?v=-7b3ao7ylak) + r. yedras (digital video, 6'06", 2017)  
+macrobes (version 0.5) (digital video, 18'44", 2017)  
+["sinfonía sefardí"](https://www.youtube.com/watch?v=v0YEhnOkOek) + r. yedras (digital video, 4'24", 2018)
+
+---
+
+## what i use
+
+[animoog](https://www.moogmusic.com/products/apps/animoog-0), [ardour](https://ardour.org), [audacity](https://www.audacityteam.org), [bosca ceoil](https://boscaceoil.net), [calibre](https://calibre-ebook.com), [cheap bots, done quick!](https://cheapbotsdonequick.com), [cmus](https://cmus.github.io), [emacs](https://www.gnu.org/software/emacs/), [figure](https://allihoopa.com/apps/figure), [filtatron](https://www.moogmusic.com/products/apps/filtatron), [garageband](https://www.apple.com/mac/garageband/), [gimp](http://www.gimp.org), [github](https://github.com), [github desktop](https://desktop.github.com), [gravit designer](https://www.designer.io), [giphy capture](https://giphy.com/apps/giphycapture), [gmail](http://gmail.com), [homebrew](https://brew.sh), [iannix](https://www.iannix.org), [imovie](https://www.apple.com/imovie/), [inkscape](https://inkscape.org), [jekyll](https://jekyllrb.com), [live](https://www.ableton.com/en/live/), [lnx studio](http://lnxstudio.sourceforge.net), [localtunnel](https://localtunnel.github.io/www/), [macos](https://www.apple.com/mx/macos/high-sierra/), [max](https://cycling74.com/products/max), [magicavoxel](https://ephtracy.github.io), [mixtkl](https://intermorphic.com/mixtikl/), [mpv](https://mpv.io) [nanoloop](http://www.nanoloop.com), [numbers](https://www.apple.com/numbers/), [p5.js](https://p5js.org), [pages](https://www.apple.com/pages/), [pd](https://puredata.info), [pico-8](https://www.lexaloffle.com/pico-8.php), [processing](https://processing.org), [quartz composer](https://en.wikipedia.org/wiki/Quartz_Composer), [quicktime](https://en.wikipedia.org/wiki/QuickTime), [rainbowstream](https://github.com/orakaro/rainbowstream), [renoise](http://renoise.com), [sonic pi](https://sonic-pi.net), [steam](https://store.steampowered.com), [sublime text](https://www.sublimetext.com), [sunvox](http://www.warmplace.ru/soft/sunvox/), [supercollider](https://supercollider.github.io), [take](https://allihoopa.com/apps/take), [tidalcycles](https://tidalcycles.org), [touchosc](https://hexler.net/software/touchosc), [tracery](http://tracery.io), [twine](http://twinery.org), [twitter](https://twitter.com), [vcv rack](https://vcvrack.com).
 
 ---
 
