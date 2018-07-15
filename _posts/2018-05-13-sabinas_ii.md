@@ -1,7 +1,6 @@
 ---
 
 layout: default
-type: blog
 title: sabinas ii
 date: 2018-05-13
 location: sabinas
