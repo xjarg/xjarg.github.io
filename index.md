@@ -20,6 +20,7 @@ i'm @jarxg. i make texts, sounds and images with computers. i'm the proud dad of
 
 ### texts
 
+[e57](e57) (es, 2018)  
 [pakistán records](https://pakistan-records.tumblr.com)  
 [bots repository](https://github.com/jarxg/cheapbots)  
 [@bot_de_pelis](https://twitter.com/bot_de_pelis) (es, 2017)  
