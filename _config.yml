@@ -3,6 +3,9 @@ title: jarxg.github.io
 tag_text: jarxg
 description: jarxg personal page and blog
 
+baseurl: ""
+url: "https://jarxg.github.io"
+
 # Build settings
 markdown: kramdown
 exclude: ["README.md"]
