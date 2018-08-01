@@ -2,7 +2,7 @@
 
 layout: default
 title: al norte de la muralla
-date: 2018-05-10
+year: 2018-05-10
 location: saltillo
 language: en
 category: blog

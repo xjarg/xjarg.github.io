@@ -20,7 +20,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="{{ site.description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ site.url }}{{ page.url }}</title>
+        <title>{{ page.title }}</title>
         <link rel="stylesheet" href="{{ base.url }}/css/default.css">
         <link rel="shortcut icon" type="image/ico" href="{{ base.url }}/favicon.ico">
         <link rel="shortcut icon" type="image/jpg" href="{{ base.url }}/assets/@jarxg.png">
@@ -30,8 +30,15 @@
     <body>
         <div class="container">
             <div class="screen">
-                <h1><a href="{{ base.url }}/index">{{ site.url }}</a>{{ page.url }}</h1>
+
+                <h1>{{ page.title }}</h1>
+
                 {{content}}
+
+                <hr>
+
+                <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+
             </div>
         </div>
     </body>

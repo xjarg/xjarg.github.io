@@ -2,7 +2,7 @@
 
 layout: default
 title: sabinas iii
-date: 2018-05-15
+year: 2018-05-15
 location: sabinas
 language: en
 category: blog
@@ -40,7 +40,7 @@ i want to implement rss later and tags. i might do it at some point in the next 
 layout: default
 type: blog
 title: sabinas iii
-date: 2018-05-15
+year: 2018-05-15
 location: sabinas
 language: en
 tags: family films projects sabinas writing

@@ -2,7 +2,7 @@
 
 layout: default
 title: hello world!
-date: 2018-04-30
+year: 2018-04-30
 location: saltillo
 language: en
 category: blog

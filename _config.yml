@@ -3,8 +3,8 @@ title: jarxg.github.io
 tag_text: jarxg
 description: jarxg personal page and blog
 
+url: https://jarxg.github.io
 baseurl: ""
-url: "https://jarxg.github.io"
 
 # Build settings
 markdown: kramdown
@@ -16,6 +16,13 @@ plugins:
 
 collections:
 - _posts
-- _texts
+  
+collections: 
+  words:
+    output: true
+  sounds:
+    output: true
+  images:
+    output: true
 
 jekyll-mentions: https://twitter.com
