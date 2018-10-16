@@ -1,12 +1,15 @@
 ---
 
 layout: default
-type: blog
 title: 
-year: YYYY-MM-DD
+date: YYYY-MM-DD
+date-edited:
+synopsis:
 location:
 language:
 category:
 tags:
 
 ---
+
+# {{ page.title }}

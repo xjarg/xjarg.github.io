@@ -15,9 +15,8 @@ plugins:
   - jekyll-mentions
 
 collections:
-- _posts
-  
-collections: 
+  _posts:
+    output: true
   words:
     output: true
   sounds:

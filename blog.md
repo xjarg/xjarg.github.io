@@ -1,14 +1,14 @@
 ---
 
-title: blog
 layout: default
+title: blog
 
 ---
 
 {% for item in site.posts %}
 
-## [{{ item.url }}]({{ item.url }})
+# {{ item.date | date: "%Y-%m-%d" }}: {{ item.title }}
 
 {{ item.content }}
----
+
 {% endfor %}
