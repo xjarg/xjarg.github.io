@@ -11,17 +11,6 @@ markdown: kramdown
 exclude: ["README.md"]
 
 plugins:
-  - jekyll-feed
   - jekyll-mentions
-
-collections:
-  _posts:
-    output: true
-  words:
-    output: true
-  sounds:
-    output: true
-  images:
-    output: true
 
 jekyll-mentions: https://twitter.com
