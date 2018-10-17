@@ -9,15 +9,15 @@ layout: default
 
 Soy @jarxg. Estoy en:
 
-[Bandcamp](https://jarxg.bandcamp)  
-[GitHub](https://github.com/jarxg)  
-[Instagram](https://www.instagram.com/jarxg)  
-[YouTube](https://www.youtube.com/channel/UCQgMnxr0NKNZQVi-gsP7FhA)  
-[Vimeo](https://vimeo.com/jrangel)  
 [Twitter](https://www.twitter.com/jarxg)  
 [Tumblr](https://jarxg.tumblr.com)  
+[Instagram](https://www.instagram.com/jarxg)  
+[Bandcamp](https://jarxg.bandcamp)  
+[GitHub](https://github.com/jarxg)  
+[YouTube](https://www.youtube.com/channel/UCQgMnxr0NKNZQVi-gsP7FhA)  
+[Vimeo](https://vimeo.com/jrangel)  
 
-Uso [correo electrónico](mailto:im.jarxg@gmail.com).
+Uso [correo electrónico](mailto:jarg1985@gmail.com).
 
 Soy papá de [Nona](assets/nona.jpg).
 
