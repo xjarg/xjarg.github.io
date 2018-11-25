@@ -1,18 +1,18 @@
 ---
 
-title: xjarg.github.io
+title: jarxg.github.io
 layout: default
 
 ---
 
 # Hola
 
-Soy @xjarg. Estoy en:
+Soy @jarxg. Estoy en:
 
-[Twitter](https://www.twitter.com/xjarg) 
-[Instagram](https://www.instagram.com/xjarg) 
-[Bandcamp](https://xjarg.bandcamp.com) 
-[GitHub](https://github.com/xjarg)  
+[Twitter](https://www.twitter.com/jarxg) 
+[Instagram](https://www.instagram.com/jarxg) 
+[Bandcamp](https://jarxg.bandcamp.com) 
+[GitHub](https://github.com/jarxg)  
 
 Soy papá de [Nona](assets/nona.jpg).
 
