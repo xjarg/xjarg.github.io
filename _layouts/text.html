@@ -20,34 +20,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="{{ site.description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ site.url }}{{ page.url }}</title>
-        <link rel="stylesheet" type="text/css" href="{{ base.url }}/css/defaultLight.css">
-        <link rel="shortcut icon" type="image/ico" href="{{ base.url }}/favicon.ico">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="{{ base.url }}/css/text.css">
     </head>
     <body>
         <div class="container">
             <div class="screen">
-
-                <!-- HEADER -->
-
-                <hr>
-
-                <h1><a href="{{ site.url }}">{{ site.url }}</a>{{ page.url }}</h1>
-
-                <hr>
-
-                <!-- CONTENT -->
-                
                 {{content}}
-
-                <!-- FOOTER -->
-
                 <hr>
-                
-                <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY 4.0</a>
-
-                <hr>
-                
+                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
             </div>
         </div>
     </body>

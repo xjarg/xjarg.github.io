@@ -1,24 +1,14 @@
 ---
-
-title: jarxg.github.io
+title: index
 layout: default
-
 ---
 
-# Hola
+# Texts
 
-Soy @jarxg. Estoy en:
+[Lecture on Nothing](txt/nothing.html)
 
-[Twitter](https://www.twitter.com/jarxg)  
-[Tumblr](https://jarxg.tumblr.com)  
-[Instagram](https://www.instagram.com/jarxg)  
-[Bandcamp](https://jarxg.bandcamp)  
-[GitHub](https://github.com/jarxg)  
-[YouTube](https://www.youtube.com/channel/UCQgMnxr0NKNZQVi-gsP7FhA)  
-[Vimeo](https://vimeo.com/jrangel)  
+# Blog posts
 
-Uso [correo electrónico](mailto:jarg1985@gmail.com).
-
-Soy papá de [Nona](assets/nona.jpg).
-
-Este sitio es un work-in-progress permanente.
+{% for post in site.posts %}
+  [{{ post.date | date_to_string }} - {{ post.title }}]({{ post.url }})
+{% endfor %}
