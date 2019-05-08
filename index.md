@@ -3,11 +3,9 @@ title: index
 layout: default
 ---
 
-# Texts
+# Blog
 
-[Lecture on Nothing](txt/nothing.html)
-
-# Blog posts
+[Atom feed](feed.xml)
 
 {% for post in site.posts %}
   [{{ post.date | date_to_string }} - {{ post.title }}]({{ post.url }})

@@ -15,6 +15,7 @@ a {
 
 a:focus, a:hover {
     color: #300000;
+    text-transform: uppercase;
 }
 
 p {
