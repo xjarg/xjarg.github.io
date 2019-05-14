@@ -1,0 +1,78 @@
+created: 20190514051707176
+modified: 20190514052208184
+tags: worldbuilding fate writing forms
+title: Character sheet
+type: text/vnd.tiddlywiki
+
+| !Name:| |
+| !Description:| |
+
+---
+
+! Aspects
+
+| !High concept:| |
+| !Trouble:| |
+| !Signature:| |
+| !Ambition:| |
+| !Background:| |
+| !Conviction:| |
+| !Disadvantage:| |
+| !Exceptional skill:| |
+| !Foe:| |
+| !Gear:| |
+| !Help:| |
+| !Inferior skill:| |
+
+! Skills
+
+| !Legendary (+8)| !X | !X | !X | !X |
+| !Epic (+7)| !X | !X | !X | !X |
+| !Fantastic (+6)| !X | !X | !X | !X |
+| !Superb (+5)| !X | !X | !X | !X |
+| !Great (+4)| | !X | !X | !X |
+| !Good (+3)| | | !X | !X |
+| !Fair (+2)| | | | !X |
+| !Average (+1)| | | | |
+
+---
+
+! Extras
+
+| !Name|!Description |
+
+! Stunts
+
+| !Name|!Description |
+
+---
+
+! Stress
+
+| !Physical (Physique)| | | | |
+| !Mental (Will)| | | | |
+| !Wealth (Resource)| | | | |
+
+! Consequences
+
+| !2 (Mild)| | |
+| !2 (Mild)| | |
+| !4 (Moderate)| | |
+| !6 (Severe)| | |
+| !8 (Extreme)| | |
+
+---
+
+! Character creation
+
+!! Phase One: Your Adventure
+
+| !Aspect:| |
+
+!! Phase Two: Crossing Paths
+
+| !Aspect:| |
+
+!! Phase Three: Crossing Paths Again
+
+| !Aspect:| |

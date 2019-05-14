@@ -1,0 +1,39 @@
+color: #00fdff
+created: 20190508135554603
+creator: @jarxg
+list: 
+modified: 20190514214343439
+modifier: @jarxg
+tags: @jarxg
+title: @jarxg
+type: text/vnd.tiddlywiki
+
+<!--
+   ____   _
+  / __ \ (_) __ _ _ ____  ____ _
+ / / _` || |/ _` | '__\ \/ / _` |
+| | (_| || | (_| | |   >  < (_| |
+ \ \__,_|/ |\__,_|_|  /_/\_\__, |
+  \____/__/                |___/
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+CC BY-NA-SA 4.0
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+'In the plagiaristic environment of the Net, where anyone can clone any web
+site, the artist's URL is the only guarantor that one is viewing the
+"original", most up-to-date and uncompromised version of the work.'
+––Greene, R. (2004). Internet art. New York, NY: Thames & Hudson.
+-->
+
+[img[files/images/jarxg.gif]]
+
+Hi, I'm @jarxg and this is my personal wikiblog. 
+
+I am the dad of a five year old boston terrier called [[Nona]].
+
+You can use the sidebar to navigate this site. Here are some links to the main pages:
+
+<<list-links "[tag[toc]sort[]]">>
+
+---
+
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.

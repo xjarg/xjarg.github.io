@@ -1,0 +1,81 @@
+created: 20190509071630799
+modified: 20190512202150320
+tags: programming
+title: quine
+type: text/vnd.tiddlywiki
+
+! C
+
+```cpp
+int main(){char*s="int main(){char*s=%c%s%c;printf(s,34,s,34);return 0;}";printf(s,34,s,34);return 0;}
+```
+
+! Java
+
+```java
+public class Quine
+{
+  public static void main(String[] args)
+  {
+    char q = 34;      // Quotation mark character
+    String[] l = {    // Array of source code
+    "public class Quine",
+    "{",
+    "  public static void main(String[] args)",
+    "  {",
+    "    char q = 34;      // Quotation mark character",
+    "    String[] l = {    // Array of source code",
+    "    ",
+    "    };",
+    "    for(int i = 0; i < 6; i++)           // Print opening code",
+    "        System.out.println(l[i]);",
+    "    for(int i = 0; i < l.length; i++)    // Print string array",
+    "        System.out.println(l[6] + q + l[i] + q + ',');",
+    "    for(int i = 7; i < l.length; i++)    // Print this code",
+    "        System.out.println(l[i]);",
+    "  }",
+    "}",
+    };
+    for(int i = 0; i < 6; i++)           // Print opening code
+        System.out.println(l[i]);
+    for(int i = 0; i < l.length; i++)    // Print string array
+        System.out.println(l[6] + q + l[i] + q + ',');
+    for(int i = 7; i < l.length; i++)    // Print this code
+        System.out.println(l[i]);
+  }
+}
+```
+
+! Lua
+
+```lua
+x = [["x = [" .. "[" .. x .. "]" .. "]\nprint(" .. x)]]
+print("x = [" .. "[" .. x .. "]" .. "]\nprint(" .. x)
+```
+
+! SQL
+
+```sql
+SELECT REPLACE(REPLACE('SELECT REPLACE(REPLACE("$",CHAR(34),CHAR(39)),CHAR(36),"$") AS Quine',CHAR(34),CHAR(39)),CHAR(36),'SELECT REPLACE(REPLACE("$",CHAR(34),CHAR(39)),CHAR(36),"$") AS Quine') AS Quine
+```
+
+! Python
+
+```python
+s = 's = %r\nprint(s%%s)'
+print(s%s)
+```
+
+```python
+s = 's = %r; print (s%%s)'; print (s%s)
+```
+
+```python
+print((lambda s:s%s)('print((lambda s:s%%s)(%r))'))
+```
+
+! Matlab
+
+```matlab
+s='disp(char([115,61,39,s,39,59,s]));';disp(char([115,61,39,s,39,59,s]));
+```
