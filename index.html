@@ -46,7 +46,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>index.html — a personal blog, notebook, wiki and who knows what else</title>
+<title>index.html — a wikiblog powered by tiddlewiki</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~--><!--~~ Raw markup ~~-->
 
 
@@ -137,6 +137,10 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
+<li>.bash_profile</li>
+
+<li>.zshrc</li>
+
 <li>&quot;Never forget what you are...&quot;</li>
 
 <li>@jarxg</li>
@@ -149,6 +153,10 @@ Error message and password prompt
 
 <li>$:/config/ColourPicker/Recent</li>
 
+<li>$:/config/Manager/Show</li>
+
+<li>$:/config/Manager/Sort</li>
+
 <li>$:/config/NewJournal/Tags</li>
 
 <li>$:/config/NewJournal/Title</li>
@@ -159,9 +167,13 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/import</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/manager</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-image</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager</li>
 
 <li>$:/config/peek-stylesheets/mode/--994748944</li>
 
@@ -173,6 +185,10 @@ Error message and password prompt
 
 <li>$:/config/ShowHelp</li>
 
+<li>$:/config/TextEditor/EditorHeight/Height</li>
+
+<li>$:/config/TextEditor/EditorHeight/Mode</li>
+
 <li>$:/config/Toolbar/Text</li>
 
 <li>$:/core</li>
@@ -183,11 +199,11 @@ Error message and password prompt
 
 <li>$:/language</li>
 
+<li>$:/macros/danielo/footNote</li>
+
 <li>$:/palette</li>
 
 <li>$:/palettes/@jarxgPAL</li>
-
-<li>$:/plugins/tiddlywiki/blog</li>
 
 <li>$:/plugins/tiddlywiki/highlight</li>
 
@@ -221,23 +237,33 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla/settings/fontfamily</li>
 
-<li>2019-05-?? Worldbuilding with Fate is fun (II)</li>
-
 <li>2019-05-04 A new blog</li>
 
 <li>2019-05-09 TiddlyWiki is cool</li>
 
 <li>2019-05-11 Worldbuilding with Fate is fun (I)</li>
 
-<li>Beyond Cyberpunk: A Do-It-Yourself Guide to the Future</li>
+<li>Are You Living in a Simulation?</li>
 
-<li>blog</li>
+<li>Beyond Cyberpunk: A Do-It-Yourself Guide to the Future</li>
 
 <li>Blog</li>
 
-<li>Bookmarks</li>
+<li>blog</li>
+
+<li>Bookmarks and links</li>
+
+<li>Character sheet</li>
 
 <li>cyber</li>
+
+<li>cyberculture</li>
+
+<li>cyberpunk</li>
+
+<li>Cyberspace: Getting There From Here</li>
+
+<li>Detailed character sheet</li>
 
 <li>drafts</li>
 
@@ -245,17 +271,21 @@ Error message and password prompt
 
 <li>El cine como arte subversivo - Prólogo</li>
 
+<li>End-user programming</li>
+
+<li>fate</li>
+
 <li>fractal()</li>
 
 <li>Highway to Cyberia</li>
 
-<li>learning new things</li>
-
-<li>My places</li>
+<li>journal</li>
 
 <li>No Maps For These Territories</li>
 
 <li>Nona</li>
+
+<li>notebook</li>
 
 <li>published</li>
 
@@ -263,15 +293,27 @@ Error message and password prompt
 
 <li>Reading list</li>
 
+<li>Table of contents</li>
+
 <li>Ted Nelson's Homepage</li>
 
 <li>The Cultural Significance of Cyberpunk</li>
 
 <li>Things I use</li>
 
+<li>Things I'm currently into</li>
+
+<li>TiddlyWiki</li>
+
 <li>toc</li>
 
 <li>Welcome to Cyberia</li>
+
+<li>Where am I?</li>
+
+<li>wiki</li>
+
+<li>wikiblog</li>
 
 </ul>
 </p>
@@ -283,6 +325,342 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
+<div created="20190513214047846" modified="20190513214259683" tags="gist bash configurations technology software" title=".bash_profile" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>```bash
+# system
+
+alias bash.edit='micro ~/.bash_profile'
+alias bash.reload='source ~/.bash_profile'
+alias gtfo.gatekeeper='sudo spctl --master-disable'
+
+alias ls='ls -l'
+alias lsl='ls -l | less'
+alias mv='mv -v'
+alias rm='rm -vi'
+alias cp='cp -v'
+alias c='clear'
+alias cl='clear;ls;pwd'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+
+alias clean.ds='find . -name “.DS_Store” -depth -exec rm {} \;'
+alias coreaudio.reload=&quot;sudo kill `ps -ax | grep 'coreaudiod' | grep 'sbin' |awk '{print $1}'`&quot;
+alias flushdns='sudo killall -HUP mDNSResponder'
+alias myip='ifconfig | grep inet'
+
+# git
+
+alias g='git'
+alias g.init='git init'
+alias g.status='git status'
+alias g.add='git add -A .'
+alias g.resethard='git reset --hard'
+alias g.commit='git commit -am'
+alias g.push='git push'
+alias g.log='git log --oneline --decorate --color'
+alias g.pull='git pull'
+alias g.diff='git diff'
+alias g.branch='git branch'
+alias g.clone='git clone'
+alias g.fetch='git fetch'
+
+# jekyll
+
+alias j.new='jekyll new'
+alias j.build='bundle exec jekyll build'
+alias j.serve='bundle exec jekyll serve'
+
+# youtube-dl
+
+alias youtube-dl.audio='youtube-dl -x -i --audio-format=mp3 --embed-thumbnail'
+
+# wget
+
+alias wget.od='wget -e robots=off --no-check-certificate --wait 1 -r --no-parent --no-host-directories --cut-dirs=1 --reject &quot;index.html*&quot;'
+alias wget.website='wget --random-wait -r -p -e robots=off -U mozilla'
+
+# radio stations / music
+
+alias music='ncmpcpp'
+
+alias bcr='mpv http://www.berlincommunityradio.com/sites/all/themes/bcr_bootstrap/streams/bcr.m3u'
+alias dfm='mpv http://dfm.nu/DFM_RTV_INT_1.m3u'
+alias kexp='mpv http://live-aacplus-64.kexp.org/kexp64.aac'
+alias rfb='mpv http://us1.internet-radio.com:8155/stream'
+alias wfmu='mpv http://wfmu.org/wfmu.pls'
+alias wfmu.rock='mpv http://wfmu.org/wfmu_rock.pls'
+alias wfmu.ubu='mpv http://wfmu.org/wfmu_ubu.pls'
+
+alias somafm.cliqhop='somafm listen cliqhop'
+alias somafm.defcon='somafm listen defcon'
+alias somafm.deepspaceone='somafm listen deepspaceone'
+alias somafm.dronezone='somafm listen dronezone'
+alias somafm.groovesalad='somafm listen groovesalad'
+alias somafm.illstreet='somafm listen illstreet'
+alias somafm.missioncontrol='somafm listen missioncontrol'
+alias somafm.spacestation='somafm listen spacestation'
+
+# subtitles
+alias subs.en='subliminal download -l en'
+alias subs.es='subliminal download -l es'
+
+# youtube links
+
+alias yt.adultswim='mpv --shuffle https://www.youtube.com/playlist?list=PLQl8zBB7bPvIdtfRh0uwcHrjR3moB9iKk'
+alias yt.dust='mpv --shuffle https://www.youtube.com/playlist?list=PL2X2odndvaIcVPEaTzrL7xdvTw6Zmn6FQ'
+alias yt.thehole='mpv --shuffle https://www.youtube.com/playlist?list=PL1hzoi2Itx_iipzShJk6qbl3DIMwFxzbY'
+alias yt.thelist='mpv --shuffle https://www.youtube.com/playlist?list=PLNkcM3VLpfhajhF8kQgrwvE1nkS0xeH5-'
+alias yt.woahdude='mpv --shuffle https://www.youtube.com/playlist?list=PL89A7C09362AC56B3'
+
+alias yt.terminal='youtube-terminal -i -l'
+alias mpv.video='mpv --input-media-keys=no'
+alias mpv.audio='mpv --no-video --input-media-keys=no'
+
+# telnet
+
+alias telnet.starwars='telnet towel.blinkenlights.nl'
+
+# other
+
+alias matrix='cmatrix -a -u 3'
+alias flac2mp3='for f in *.flac; do flac -cd &quot;$f&quot; | lame -b 320 - &quot;${f%.*}&quot;.mp3; done'
+alias sclang='/Applications/SuperCollider.app/Contents/MacOS/sclang'
+
+# SOURCES
+
+# ruby version manager
+
+source /Users/jarxg/.rvm/scripts/rvm
+
+# OTHER
+
+if which rbenv &gt; /dev/null; then eval &quot;$(rbenv init -)&quot;; fi
+if which rbenv &gt; /dev/null; then eval &quot;$(rbenv init -)&quot;; fi
+
+# COLORS
+
+export PATH=&quot;$HOME/Library/Haskell/bin:$PATH&quot;
+export PS1=&quot;\[\033[01;36m\]\u\[\033[m\]@\[\033[35m\]\h\[\033[m\]:\[\033[1;32m\]\W\[\033[m\] $ &quot;
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+```
+
+([[Gist|https://gist.github.com/jarxg/b5804f39b91e5f3b98ad7d7da02ea95d]])</pre>
+</div>
+<div created="20190513233038157" modified="20190513233550868" tags="configurations software technology zsh gist" title=".zshrc" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>```bash
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH=&quot;/Users/jarxg/.oh-my-zsh&quot;
+
+# Set name of the theme to load --- if set to &quot;random&quot;, it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME=&quot;gentoo&quot;
+
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( &quot;robbyrussell&quot; &quot;agnoster&quot; )
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE=&quot;true&quot;
+
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE=&quot;true&quot;
+
+# Uncomment the following line to disable bi-weekly auto-update checks.
+# DISABLE_AUTO_UPDATE=&quot;true&quot;
+
+# Uncomment the following line to automatically update without prompting.
+# DISABLE_UPDATE_PROMPT=&quot;true&quot;
+
+# Uncomment the following line to change how often to auto-update (in days).
+# export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS=true
+
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS=&quot;true&quot;
+
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE=&quot;true&quot;
+
+# Uncomment the following line to enable command auto-correction.
+# ENABLE_CORRECTION=&quot;true&quot;
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+# COMPLETION_WAITING_DOTS=&quot;true&quot;
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY=&quot;true&quot;
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# You can set one of the optional three formats:
+# &quot;mm/dd/yyyy&quot;|&quot;dd.mm.yyyy&quot;|&quot;yyyy-mm-dd&quot;
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
+# HIST_STAMPS=&quot;mm/dd/yyyy&quot;
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+# export MANPATH=&quot;/usr/local/man:$MANPATH&quot;
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+
+# Compilation flags
+# export ARCHFLAGS=&quot;-arch x86_64&quot;
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+
+# sistem
+
+alias zsh.edit='micro ~/.zshrc'
+alias zsh.reload='. ~/.zshrc'
+alias ohmyzsh='micro ~/.oh-my-zsh'
+
+alias bash.edit='micro ~/.bash_profile'
+alias bash.reload='source ~/.bash_profile'
+alias gtfo.gatekeeper='sudo spctl --master-disable'
+
+alias ls='ls -l'
+alias lsl='ls -l | less'
+alias mv='mv -v'
+alias rm='rm -vi'
+alias cp='cp -v'
+alias c='clear'
+alias cl='clear;ls;pwd'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+
+alias clean.ds='find . -name “.DS_Store” -depth -exec rm {} \;'
+alias coreaudio.reload=&quot;sudo kill `ps -ax | grep 'coreaudiod' | grep 'sbin' |awk '{print $1}'`&quot;
+alias flushdns='sudo killall -HUP mDNSResponder'
+alias myip='ifconfig | grep inet'
+
+# git
+
+alias g='git'
+alias g.init='git init'
+alias g.status='git status'
+alias g.add='git add -A .'
+alias g.resethard='git reset --hard'
+alias g.commit='git commit -am'
+alias g.push='git push'
+alias g.log='git log --oneline --decorate --color'
+alias g.pull='git pull'
+alias g.diff='git diff'
+alias g.branch='git branch'
+alias g.clone='git clone'
+alias g.fetch='git fetch'
+
+# jekyll
+
+alias j.new='jekyll new'
+alias j.build='bundle exec jekyll build'
+alias j.serve='bundle exec jekyll serve'
+
+# youtube-dl
+
+alias youtube-dl.audio='youtube-dl -x -i --audio-format=mp3 --embed-thumbnail'
+
+# wget
+
+alias wget.od='wget -e robots=off --no-check-certificate --wait 1 -r --no-parent --no-host-directories --cut-dirs=1 --reject &quot;index.html*&quot;'
+alias wget.website='wget --random-wait -r -p -e robots=off -U mozilla'
+
+# radio stations / music
+
+alias music='ncmpcpp'
+
+alias bcr='mpv http://www.berlincommunityradio.com/sites/all/themes/bcr_bootstrap/streams/bcr.m3u'
+alias dfm='mpv http://dfm.nu/DFM_RTV_INT_1.m3u'
+alias kexp='mpv http://live-aacplus-64.kexp.org/kexp64.aac'
+alias rfb='mpv http://us1.internet-radio.com:8155/stream'
+alias wfmu='mpv http://wfmu.org/wfmu.pls'
+alias wfmu.rock='mpv http://wfmu.org/wfmu_rock.pls'
+alias wfmu.ubu='mpv http://wfmu.org/wfmu_ubu.pls'
+
+alias somafm.cliqhop='somafm listen cliqhop'
+alias somafm.defcon='somafm listen defcon'
+alias somafm.deepspaceone='somafm listen deepspaceone'
+alias somafm.dronezone='somafm listen dronezone'
+alias somafm.groovesalad='somafm listen groovesalad'
+alias somafm.illstreet='somafm listen illstreet'
+alias somafm.missioncontrol='somafm listen missioncontrol'
+alias somafm.spacestation='somafm listen spacestation'
+
+# subtitles
+alias subs.en='subliminal download -l en'
+alias subs.es='subliminal download -l es'
+
+# youtube links
+
+alias yt.adultswim='mpv --shuffle https://www.youtube.com/playlist?list=PLQl8zBB7bPvIdtfRh0uwcHrjR3moB9iKk'
+alias yt.dust='mpv --shuffle https://www.youtube.com/playlist?list=PL2X2odndvaIcVPEaTzrL7xdvTw6Zmn6FQ'
+alias yt.thehole='mpv --shuffle https://www.youtube.com/playlist?list=PL1hzoi2Itx_iipzShJk6qbl3DIMwFxzbY'
+alias yt.thelist='mpv --shuffle https://www.youtube.com/playlist?list=PLNkcM3VLpfhajhF8kQgrwvE1nkS0xeH5-'
+alias yt.woahdude='mpv --shuffle https://www.youtube.com/playlist?list=PL89A7C09362AC56B3'
+
+alias yt.terminal='youtube-terminal -i -l'
+alias mpv.video='mpv --input-media-keys=no'
+alias mpv.audio='mpv --no-video --input-media-keys=no'
+
+# telnet
+
+alias telnet.starwars='telnet towel.blinkenlights.nl'
+
+# other
+
+alias matrix='cmatrix -a -u 3'
+alias flac2mp3='for f in *.flac; do flac -cd &quot;$f&quot; | lame -b 320 - &quot;${f%.*}&quot;.mp3; done'
+alias sclang='/Applications/SuperCollider.app/Contents/MacOS/sclang'
+```
+
+([[Gist|https://gist.github.com/jarxg/8d7c05561513430b081936589b5152ca]])</pre>
+</div>
 <div created="20190510044211937" modified="20190510044337936" tags="quotes" title="&quot;Never forget what you are...&quot;" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&lt;&lt;&lt;
 Never forget what you are. The rest of the world will not. Wear it like an armor and it can never be used to hurt you.
@@ -291,7 +669,7 @@ Never forget what you are. The rest of the world will not. Wear it like an armor
 &lt;&lt;&lt;
 </pre>
 </div>
-<div color="#00fdff" created="20190508135554603" modified="20190512202619617" tags="@jarxg blog wiki notebook toc" title="@jarxg" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div color="#00fdff" created="20190508135554603" creator="@jarxg" modified="20190514181310486" modifier="@jarxg" tags="@jarxg" title="@jarxg" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&lt;!--
    ____   _
   / __ \ (_) __ _ _ ____  ____ _
@@ -308,19 +686,13 @@ site, the artist's URL is the only guarantor that one is viewing the
 ––Greene, R. (2004). Internet art. New York, NY: Thames &amp; Hudson.
 --&gt;
 
-&lt;div style=&quot;width:100%;height:0;padding-bottom:75%;position:relative;&quot;&gt;&lt;iframe src=&quot;https://giphy.com/embed/Y0agzZ1ycDL6nK2zVY&quot; width=&quot;100%&quot; height=&quot;100%&quot; style=&quot;position:absolute&quot; frameBorder=&quot;0&quot; class=&quot;giphy-embed&quot; allowFullScreen&gt;&lt;/iframe&gt;&lt;/div&gt;
-
-Hi, I'm @jarxg and this is my personal blog, notebook and wiki, a repository for public and not so public knowledge.
+Hi, I'm @jarxg and this is my personal wikiblog. 
 
 I am the dad of a five year old boston terrier called [[Nona]].
 
-I'm still discovering things to do and how to do them in this wiki. This is like a playground for me, I'm into [[learning new things]] all the time.
+You can use the sidebar to navigate this site. Here are some links to the main pages:
 
-* [[Blog]] - Self-explanatory
-* [[My places]] - Links to what I do
-* [[Things I use]] - What I use to do what I do (coming soon)
-* [[Reading list]] - (soon)
-* [[Bookmarks]] - Interesting things I find on the internet.
+&lt;&lt;list-links &quot;[tag[toc]sort[]]&quot;&gt;&gt;
 
 ---
 
@@ -338,8 +710,14 @@ This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://cr
 <div created="20190508062004257" list="MediumBlue" modified="20190508062005310" title="$:/config/ColourPicker/Recent" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre></pre>
 </div>
-<div created="20190512202440011" modified="20190512202442139" title="$:/config/NewJournal/Tags" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>blog</pre>
+<div created="20190514052237925" modified="20190514052241213" title="$:/config/Manager/Show" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>tiddlers</pre>
+</div>
+<div created="20190514052251148" modified="20190514052255802" title="$:/config/Manager/Sort" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>title</pre>
+</div>
+<div created="20190512202440011" modified="20190514045040786" title="$:/config/NewJournal/Tags" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>journal</pre>
 </div>
 <div created="20190508054954938" creator="@jarxg" modified="20190509053618979" modifier="@jarxg" title="$:/config/NewJournal/Title" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>YYYY-0MM-0DD</pre>
@@ -347,16 +725,22 @@ This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://cr
 <div created="20190508062212510" modified="20190508062214626" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/fold-all" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>hide</pre>
 </div>
-<div created="20190508054827959" modified="20190509062256053" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20190508054827959" modified="20190513061226528" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>hide</pre>
 </div>
 <div created="20190508160045689" modified="20190509055342597" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/import" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>hide</pre>
+</div>
+<div created="20190513002236270" modified="20190513002240829" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/manager" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>hide</pre>
 </div>
 <div created="20190508062032100" modified="20190509055341576" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-image" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>hide</pre>
 </div>
 <div created="20190508061934257" modified="20190509071437201" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>hide</pre>
+</div>
+<div created="20190513002231126" modified="20190513002241835" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>hide</pre>
 </div>
 <div created="20190508055054085" creator="@jarxg" modified="20190508055056616" modifier="@jarxg" title="$:/config/peek-stylesheets/mode/--994748944" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -373,6 +757,12 @@ This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://cr
 </div>
 <div created="20190509192554057" modified="20190509192611108" title="$:/config/ShowHelp" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>no</pre>
+</div>
+<div created="20190514045432026" modified="20190514045434175" title="$:/config/TextEditor/EditorHeight/Height" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>600px</pre>
+</div>
+<div created="20190514045403345" modified="20190514045450967" title="$:/config/TextEditor/EditorHeight/Mode" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>auto</pre>
 </div>
 <div created="20190508060607504" creator="@jarxg" modified="20190508060613870" modifier="@jarxg" title="$:/config/Toolbar/Text" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>no</pre>
@@ -9259,6 +9649,33 @@ This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://cr
 <div created="20190508061358848" modified="20190508061428493" title="$:/language" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>$:/languages/en-GB</pre>
 </div>
+<div created="20140217160644604" creator="Danielo Rodriguez" modified="20190513060406305" modifier="Danielo Rodriguez" tags="macros $:/tags/Macro" title="$:/macros/danielo/footNote" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>\define ref(label)
+&lt;$button popup=&quot;$:/state/$label$&quot; class=&quot;tc-btn-invisible tc-slider&quot;&gt;&lt;sup style=&quot;color:green&quot;&gt;$label$&lt;/sup&gt;&lt;/$button&gt;
+\end
+
+\define definition(label,text)
+&lt;$reveal type=&quot;popup&quot; state=&quot;$:/state/$label$&quot; animate=&quot;yes&quot;&gt;
+&lt;div class=&quot;tc-drop-down&quot;&gt;
+&lt;dl&gt;
+&lt;dt&gt;$label$&lt;/dt&gt;
+&lt;dd&gt;$text$&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/$reveal&gt;
+\end
+
+\define footnote(label,text)
+&lt;&lt;ref &quot;$label$&quot;&gt;&gt;
+&lt;&lt;definition &quot;$label$&quot; &quot;$text$&quot;&gt;&gt;
+\end
+
+\define footnotes(label,text)
+&lt;&lt;definition &quot;$label$&quot; &quot;$text$&quot;&gt;&gt;
+&lt;sub&gt;&lt;span style=&quot;color:green&quot;&gt;$label$ : &lt;/span&gt; $text$&lt;/sub&gt;
+\end
+</pre>
+</div>
 <div created="20190508054322757" creator="@jarxg" modified="20190509193415789" modifier="@jarxg" title="$:/palette" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>$:/palettes/@jarxgPAL</pre>
 </div>
@@ -9377,36 +9794,6 @@ toolbar-done-button:
 untagged-background: #999999
 very-muted-foreground: #888888</pre>
 </div>
-<div author="JeremyRuston" core-version="&gt;=5.0.0" created="20190509192714810" dependents="" description="Tools for using TiddlyWiki to publish blogs" list="readme docs" modified="20190509192714810" plugin-type="plugin" title="$:/plugins/tiddlywiki/blog" type="application/json" version="5.1.19" revision="0" bag="default">
-<pre>{
-    &quot;tiddlers&quot;: {
-        &quot;$:/plugins/tiddlywiki/blog/docs&quot;: {
-            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/blog/docs&quot;,
-            &quot;text&quot;: &quot;Until there's more documentation, see an example of the use of this plugin here:\n\n* Blog: http://jermolene-blog.github.io/\n* Repository: https://github.com/Jermolene-blog/blog\n&quot;
-        },
-        &quot;$:/plugins/tiddlywiki/blog/readme&quot;: {
-            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/blog/readme&quot;,
-            &quot;text&quot;: &quot;This plugin contains tools to help publish blogs:\n\n* Templates and tools for building static HTML pages and posts\n&quot;
-        },
-        &quot;$:/plugins/tiddlywiki/blog/templates/html-page/page&quot;: {
-            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/blog/templates/html-page/page&quot;,
-            &quot;text&quot;: &quot;\\define tv-wikilink-template() posts/$uri_doubleencoded$.html\n\\define tv-config-toolbar-icons() no\n\\define tv-config-toolbar-text() no\n\\define tv-config-toolbar-class() tc-btn-invisible\n`&lt;!doctype html&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;meta http-equiv=\&quot;Content-Type\&quot; content=\&quot;text/html;charset=utf-8\&quot; /&gt;\n&lt;meta name=\&quot;generator\&quot; content=\&quot;TiddlyWiki\&quot; /&gt;\n&lt;meta name=\&quot;tiddlywiki-version\&quot; content=\&quot;`{{$:/core/templates/version}}`\&quot; /&gt;\n&lt;meta name=\&quot;viewport\&quot; content=\&quot;width=device-width, initial-scale=1.0\&quot; /&gt;\n&lt;meta name=\&quot;apple-mobile-web-app-capable\&quot; content=\&quot;yes\&quot; /&gt;\n&lt;meta name=\&quot;apple-mobile-web-app-status-bar-style\&quot; content=\&quot;black-translucent\&quot; /&gt;\n&lt;meta name=\&quot;mobile-web-app-capable\&quot; content=\&quot;yes\&quot;/&gt;\n&lt;meta name=\&quot;format-detection\&quot; content=\&quot;telephone=no\&quot;&gt;\n&lt;link id=\&quot;faviconLink\&quot; rel=\&quot;shortcut icon\&quot; href=\&quot;favicon.ico\&quot;&gt;\n&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;static.css\&quot;&gt;\n&lt;title&gt;`&lt;$transclude field=\&quot;caption\&quot;&gt;&lt;$view field=\&quot;title\&quot;/&gt;&lt;/$transclude&gt;: {{$:/core/wiki/title}}`&lt;/title&gt;\n&lt;/head&gt;\n&lt;body class=\&quot;tc-body\&quot;&gt;\n`{{$:/StaticBanner||$:/core/templates/html-tiddler}}`\n&lt;section class=\&quot;tc-story-river\&quot;&gt;\n`&lt;$importvariables filter=\&quot;[[$:/core/ui/PageMacros]] [all[shadows+tiddlers]tag[$:/tags/Macro]!has[draft.of]]\&quot;&gt;\n&lt;$view tiddler=\&quot;$:/plugins/tiddlywiki/blog/templates/tiddler\&quot; format=\&quot;htmlwikified\&quot;/&gt;\n&lt;/$importvariables&gt;`\n&lt;/section&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n`\n&quot;
-        },
-        &quot;$:/plugins/tiddlywiki/blog/templates/html-page/post&quot;: {
-            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/blog/templates/html-page/post&quot;,
-            &quot;text&quot;: &quot;\\define tv-wikilink-template() /$uri_doubleencoded$.html\n\\define tv-config-toolbar-icons() no\n\\define tv-config-toolbar-text() no\n\\define tv-config-toolbar-class() tc-btn-invisible\n`&lt;!doctype html&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;meta http-equiv=\&quot;Content-Type\&quot; content=\&quot;text/html;charset=utf-8\&quot; /&gt;\n&lt;meta name=\&quot;generator\&quot; content=\&quot;TiddlyWiki\&quot; /&gt;\n&lt;meta name=\&quot;tiddlywiki-version\&quot; content=\&quot;`{{$:/core/templates/version}}`\&quot; /&gt;\n&lt;meta name=\&quot;viewport\&quot; content=\&quot;width=device-width, initial-scale=1.0\&quot; /&gt;\n&lt;meta name=\&quot;apple-mobile-web-app-capable\&quot; content=\&quot;yes\&quot; /&gt;\n&lt;meta name=\&quot;apple-mobile-web-app-status-bar-style\&quot; content=\&quot;black-translucent\&quot; /&gt;\n&lt;meta name=\&quot;mobile-web-app-capable\&quot; content=\&quot;yes\&quot;/&gt;\n&lt;meta name=\&quot;format-detection\&quot; content=\&quot;telephone=no\&quot;&gt;\n&lt;link id=\&quot;faviconLink\&quot; rel=\&quot;shortcut icon\&quot; href=\&quot;../favicon.ico\&quot;&gt;\n&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;../static.css\&quot;&gt;\n&lt;title&gt;`&lt;$transclude field=\&quot;caption\&quot;&gt;&lt;$view field=\&quot;title\&quot;/&gt;&lt;/$transclude&gt;: {{$:/core/wiki/title}}`&lt;/title&gt;\n&lt;/head&gt;\n&lt;body class=\&quot;tc-body\&quot;&gt;\n`{{$:/StaticBanner||$:/core/templates/html-tiddler}}`\n&lt;section class=\&quot;tc-story-river\&quot;&gt;\n`&lt;$importvariables filter=\&quot;[[$:/core/ui/PageMacros]] [all[shadows+tiddlers]tag[$:/tags/Macro]!has[draft.of]]\&quot;&gt;\n&lt;$view tiddler=\&quot;$:/plugins/tiddlywiki/blog/templates/tiddler\&quot; format=\&quot;htmlwikified\&quot;/&gt;\n&lt;$view tiddler=\&quot;$:/plugins/tiddlywiki/blog/templates/menu\&quot; format=\&quot;htmlwikified\&quot;/&gt;\n&lt;/$importvariables&gt;`\n&lt;/section&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n`\n&quot;
-        },
-        &quot;$:/plugins/tiddlywiki/blog/templates/menu&quot;: {
-            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/blog/templates/menu&quot;,
-            &quot;text&quot;: &quot;&lt;div class=\&quot;tc-blog-menu\&quot;&gt;\n\n&lt;div class=\&quot;tc-blog-menu-item\&quot;&gt;\n\n&lt;a href=\&quot;../index.html\&quot;&gt;\n\n{{$:/core/images/home-button}}\n\n&lt;/a&gt;\n\n&lt;/div&gt;\n\n&lt;/div&gt;\n&quot;
-        },
-        &quot;$:/plugins/tiddlywiki/blog/templates/tiddler&quot;: {
-            &quot;title&quot;: &quot;$:/plugins/tiddlywiki/blog/templates/tiddler&quot;,
-            &quot;text&quot;: &quot;&lt;div class=\&quot;tc-tiddler-frame tc-tiddler-view-frame\&quot;&gt;\n\n&lt;div class=\&quot;tc-tiddler-title\&quot;&gt;\n\n&lt;div class=\&quot;tc-titlebar\&quot;&gt;\n\n&lt;h2 class=\&quot;tc-title\&quot;&gt;\n\n&lt;$transclude field=\&quot;caption\&quot; mode=\&quot;inline\&quot;&gt;\n\n&lt;$view field=\&quot;title\&quot;/&gt;\n\n&lt;/$transclude&gt;\n\n&lt;/h2&gt;\n\n&lt;/div&gt;\n\n&lt;/div&gt;\n\n&lt;div class=\&quot;tc-subtitle\&quot;&gt;\n\n&lt;$view field=\&quot;modified\&quot; format=\&quot;date\&quot; template=\&quot;DDth MMM YYYY\&quot;/&gt;\n\n&lt;/div&gt;\n\n&lt;div class=\&quot;tc-tiddler-body\&quot;&gt;\n\n&lt;$transclude/&gt;\n\n&lt;/div&gt;\n\n&lt;/div&gt;\n&quot;
-        }
-    }
-}</pre>
-</div>
 <div author="JoaoBolila" core-version="&gt;=5.0.0" dependents="" description="Highlight.js: syntax highlighting" list="readme usage license" plugin-type="plugin" title="$:/plugins/tiddlywiki/highlight" type="application/json" version="5.1.19" revision="0" bag="default">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -9473,8 +9860,8 @@ very-muted-foreground: #888888</pre>
     }
 }</pre>
 </div>
-<div created="20190508162516158" modified="20190509062241059" title="$:/SiteSubtitle" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>a personal blog, notebook, wiki and who knows what else</pre>
+<div created="20190508162516158" modified="20190514053938383" title="$:/SiteSubtitle" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>a [[wikiblog]] powered by ''tiddlewiki''</pre>
 </div>
 <div created="20190508054922996" modified="20190509062219473" title="$:/SiteTitle" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>index.html</pre>
@@ -9640,8 +10027,32 @@ very-muted-foreground: #888888</pre>
 <div created="20190508060311801" creator="@jarxg" modified="20190508160704978" modifier="@jarxg" title="$:/themes/tiddlywiki/vanilla/settings/fontfamily" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&quot;Menlo&quot;, &quot;Consolas&quot;, monospace</pre>
 </div>
-<div created="20190509175021075" modified="20190512202527978" tags="writing drafts worldbuilding blog fate" title="2019-05-?? Worldbuilding with Fate is fun (II)" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>The feature in Fate that attracted me the most was [[Aspects|https://fate-srd.com/fate-core/aspects-fate-points]]. According to the Fate Core manual, 
+<div created="20190509063139363" creator="@jarxg" modified="20190514053758117" modifier="@jarxg" tags="published journal" title="2019-05-04 A new blog" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>I've had quite a few blogs in my life. Most of them still exist in one way or another. I have at least three of them as private blogs in my Blogspot account, none of them with less than three years worth(less) of content. I even had a couple blogs in ~LiveJournal and another one in ~CemZoo&lt;&lt;ref &quot;1&quot;&gt;&gt;. I used to ve an avid blogger, even if not a very good one. Reading them today is cringy to say the least.
+
+My objective with this blog is not to cringe when I read it ten or fifteen or twenty years from now. Which is going to be difficult considering that I'm cringing just by rereading this work-in-progress post.
+
+---
+
+&lt;&lt;footnotes &quot;1&quot; &quot;Only a few weeks ago I learned about the end of Cemzoo. It was my first online community.&quot;&gt;&gt;</pre>
+</div>
+<div created="20190509062554375" modified="20190514045023393" tags="published journal" title="2019-05-09 TiddlyWiki is cool" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>I just rediscovered [[TiddlyWiki|https://tiddlywiki.com]] thanks to [[the blog of the late Joe Armstrong|https://joearms.github.io/#Index]], the computer scientist best known for creating the Erlang programming language. I might consider taking that road now that I'm in a crossroads with my own blog, trying to decide it's direction.
+
+Thanks to Joe's blog I learned what a [[quine]] is and that TiddlyWiki is an example of one, apparently.
+
+A wiki is certainly a flexible platform for blogging and information gathering.</pre>
+</div>
+<div created="20190509135849618" creator="@jarxg" modified="20190514045027241" modifier="@jarxg" tags="journal worldbuilding writing published fate" title="2019-05-11 Worldbuilding with Fate is fun (I)" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>On my last vacations I started working (yeah, I know) on a worldbuilding idea I've been thinking about for a while. I started taking some notes on paper and my computer's notes app but I spent the afternoon of yesterday moving all that information to a local wiki (using ~TiddlyWiki, of course).
+
+To help me define characters and situations I've been using a personal implementation of Fate Core, a narrative-focused RPG system that I learned about a few years ago.
+
+I have never played Fate, but its focus on narrative makes it easy to understand since there isn't much crunching in it. According to some players at the Fate subreddit, you don't even really need to have played in order to write a good setting and make good characters with the tools Fate offers.
+
+Since Fate Core (and it's lightweight counterpart Fate Accelerated) is more a narrative toolkit than a game system, its concepts are easy to apply even outside the realm of tabletop roleplaying. Also, using it as a foundation for my worldbuilding, actually using it in gameplay should be a relatively smooth transition. Plus, Fate is published under a Creative Commons license, which is pure love.
+
+The feature in Fate that attracted me the most was [[Aspects|https://fate-srd.com/fate-core/aspects-fate-points]]. According to the Fate Core manual, 
 
 &lt;&lt;&lt;
 An aspect is a phrase that describes something unique or noteworthy about whatever it’s attached to. 
@@ -9655,36 +10066,10 @@ Some Aspects are pretty much permanent and expressive (e.g. //One eyed giantess 
 
 One crucial thing to consider when creating Aspects is that they shouldn't be just descriptions of things the character is good at. A good Aspect can be both an help and a burden. Think about the contrast between a boring Aspect like //The best swordsman in the entire world// and an interesting one like //The best swordsman in the realm who doesn't have a sword//. The second Aspect not only gives us some description of the character but also invites us to think about a background, an origin story, the reason this apparently great swordsman doesn't have a tool to work with. A good Aspect is a potential story by itself.
 
-There are more things to this process of character creation in Fate that I will talk about eventually, like skills, stunts and extras.</pre>
+There are more things to this process of character creation in Fate that I will talk about eventually, like skills, stunts and extras. A good starting point in Fate is the [[Fate SRD|https://fate-srd.com]], where the core rules, the accelerated edition and other resources can be freely accesed.</pre>
 </div>
-<div created="20190509063139363" modified="20190512202412328" tags="published blog" title="2019-05-04 A new blog" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>I've had quite a few blogs in my life. Most of them still exist in one way or another. I have at least three of them as private blogs in my Blogspot account, none of them with less than three years worth(less) of content. I even had a couple blogs in ~LiveJournal and another one in ~CemZoo^^1^^. I used to ve an avid blogger, even if not a very good one. Reading them today is cringy to say the least.
-
-My objective with this blog is not to cringe when I read it ten or fifteen or twenty years from now. Which is going to be difficult considering that I'm cringing just by rereading this work-in-progress post.
-
----
-
-^^1^^ Only a few weeks ago I learned about [[the end of Cemzoo|https://twitter.com/CemZoo/status/1021469541065347073]]. It was my first online community. And this footnote is actually nothing more than a way to check how fn's look in my blog. They seem to be working fine, thank you very much.</pre>
-</div>
-<div created="20190509062554375" modified="20190512202421459" tags="published blog" title="2019-05-09 TiddlyWiki is cool" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>I just rediscovered [[TiddlyWiki|https://tiddlywiki.com]] thanks to [[the blog of the late Joe Armstrong|https://joearms.github.io/#Index]], the computer scientist best known for creating the Erlang programming language. I might consider taking that road now that I'm in a crossroads with my own blog, trying to decide it's direction.
-
-Thanks to Joe's blog I learned what a [[quine]] is and that TiddlyWiki is an example of one, apparently.
-
-A wiki is certainly a flexible platform for blogging and information gathering.</pre>
-</div>
-<div created="20190509135849618" creator="@jarxg" modified="20190512202514540" modifier="@jarxg" tags="worldbuilding writing published blog fate" title="2019-05-11 Worldbuilding with Fate is fun (I)" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>On my last vacations I started working (yeah, I know) on a worldbuilding idea I've been thinking about for a while. I started taking some notes on paper and my computer's notes app but I spent the afternoon of yesterday moving all that information to a local wiki (using ~TiddlyWiki, of course).
-
-To help me define characters and situations I've been using a personal implementation of Fate Core, a narrative-focused RPG system that I learned about a few years ago.
-
-I have never played Fate, but its focus on narrative makes it easy to understand since there isn't much crunching in it. According to some players at the Fate subreddit, you don't even really need to have played in order to write a good setting and make good characters with the tools Fate offers.
-
-Since Fate Core (and it's lightweight counterpart Fate Accelerated) is more a narrative toolkit than a game system, its concepts are easy to apply even outside the realm of tabletop roleplaying. Also, using it as a foundation for my worldbuilding, actually using it in gameplay should be a relatively smooth transition. Plus, Fate is published under a Creative Commons license, which is pure love.
-
-A good starting point in Fate is the [[Fate SRD|https://fate-srd.com]], where the core rules, the accelerated edition and other resources can be freely accesed.
-
-In the next days I will be writing about the ways I'm using Fate to build the world that has been dormant in my mind for a while.</pre>
+<div created="20190514034455904" modified="20190514045146153" tags="articles bookmarks cyberculture philosophy" title="Are You Living in a Simulation?" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>[[https://www.simulation-argument.com/simulation.html]]</pre>
 </div>
 <div created="20190511233341167" creator="@jarxg" modified="20190511233758729" modifier="@jarxg" tags="bookmarks technology cyberculture cyberpunk software 90s emulation" title="Beyond Cyberpunk: A Do-It-Yourself Guide to the Future" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&lt;iframe src=&quot;https://archive.org/embed/BeyondCyberpunkMacintosh&quot; width=&quot;560&quot; height=&quot;384&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen&gt;&lt;/iframe&gt;
@@ -9718,21 +10103,505 @@ Mac Plus or higher
 From ~MacintoshGarden.org
 &lt;&lt;&lt;</pre>
 </div>
-<div color="#61177c" created="20190512202214762" modified="20190512202222319" title="blog" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre></pre>
-</div>
-<div created="20190511055936253" modified="20190512202434011" tags="toc" title="Blog" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20190511055936253" modified="20190514045033974" tags="toc" title="Blog" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&lt;&lt;list-links &quot;[tag[published]reverse[]]&quot;&gt;&gt;</pre>
 </div>
-<div created="20190511060225057" modified="20190512071839966" tags="toc" title="Bookmarks" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div color="#440e59" created="20190513001917715" modified="20190513001918801" title="blog" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre></pre>
+</div>
+<div created="20190511060225057" modified="20190514050748402" tags="toc" title="Bookmarks and links" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&lt;&lt;list-links &quot;[tag[bookmarks]sort[title]]&quot;&gt;&gt;</pre>
+</div>
+<div created="20190514051707176" modified="20190514052208184" tags="worldbuilding fate writing forms" title="Character sheet" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>| !Name:| |
+| !Description:| |
+
+---
+
+! Aspects
+
+| !High concept:| |
+| !Trouble:| |
+| !Signature:| |
+| !Ambition:| |
+| !Background:| |
+| !Conviction:| |
+| !Disadvantage:| |
+| !Exceptional skill:| |
+| !Foe:| |
+| !Gear:| |
+| !Help:| |
+| !Inferior skill:| |
+
+! Skills
+
+| !Legendary (+8)| !X | !X | !X | !X |
+| !Epic (+7)| !X | !X | !X | !X |
+| !Fantastic (+6)| !X | !X | !X | !X |
+| !Superb (+5)| !X | !X | !X | !X |
+| !Great (+4)| | !X | !X | !X |
+| !Good (+3)| | | !X | !X |
+| !Fair (+2)| | | | !X |
+| !Average (+1)| | | | |
+
+---
+
+! Extras
+
+| !Name|!Description |
+
+! Stunts
+
+| !Name|!Description |
+
+---
+
+! Stress
+
+| !Physical (Physique)| | | | |
+| !Mental (Will)| | | | |
+| !Wealth (Resource)| | | | |
+
+! Consequences
+
+| !2 (Mild)| | |
+| !2 (Mild)| | |
+| !4 (Moderate)| | |
+| !6 (Severe)| | |
+| !8 (Extreme)| | |
+
+---
+
+! Character creation
+
+!! Phase One: Your Adventure
+
+| !Aspect:| |
+
+!! Phase Two: Crossing Paths
+
+| !Aspect:| |
+
+!! Phase Three: Crossing Paths Again
+
+| !Aspect:| |</pre>
 </div>
 <div created="20190512070834930" modified="20190512070859725" tags="cyberpunk cyberculture wiki notebook" title="cyber" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&lt;&lt;&lt;
 The cyber prefix should go: when everything is cyber nothing really is.
 &lt;&lt;&lt;</pre>
 </div>
-<div color="#6f7607" created="20190512202554721" modified="20190512202555806" title="drafts" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20190514051514912" modified="20190514051605450" title="cyberculture" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>&lt;&lt;list-links &quot;[tag[cyberculture]sort[]]&quot;&gt;&gt;</pre>
+</div>
+<div created="20190514051538534" modified="20190514051612143" title="cyberpunk" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>&lt;&lt;list-links &quot;[tag[cyberpunk]sort[]]&quot;&gt;&gt;</pre>
+</div>
+<div created="20190513061435782" modified="20190513061630902" tags="technology futurism cyberspace cyberculture textfiles articles software" title="Cyberspace: Getting There From Here" type="text/plain" revision="0" bag="default">
+<pre>Article 92 of sci.virtual-worlds:
+Path: milton!randy@xanadu.com
+From: randy@xanadu.com (Randy Farmer -- A survivor of the Lost Patrol)
+Newsgroups: sci.virtual-worlds
+Subject: Cyberspace: Getting There From Here **(LONG)**
+Summary: Repost of article posted in alt.cyberspace, by request
+Keywords: cyberspace hardware Habitat Club Caribe
+Message-ID: &lt;1990Mar8.160311.3103@xanadu.com&gt;
+Date: 8 Mar 90 16:03:11 GMT
+Sender: hlab@milton.acs.washington.edu
+Organization: Xanadu Operating Company, Palo Alto, CA
+Lines: 289
+Approved: hitl@hardy.u.washington.edu
+
+
+I have had a few requests to repost my article, so heregoes!
+
+I would really appreciate it if you sent me your thoughts on this text via
+email (to save net bandwidth), and resist the urge to fragment my thoughts
+in a followup posting with lots of '&gt;'s. This article is meant to convey one
+thought: Cyberspace is NOT hardware. Thanks :-)
+
+This article originally appeared in the Journal of Computer Game Design last
+October, and is positioned as kind of primer. Those of you who received a
+copy of this at Hackers 5.0 or read it in alt.cyberspace, hit 'n' now :-).
+----------------------------------------------------------------------------
+
+               Cyberspace: Getting There From Here.
+              (c) Copyright 1989 F. Randall Farmer
+
+Randy was lead C64 programmer on the fabled 'Habitat'(1) project 
+for Lucasfilm Games. He has taken a hiatus from building Cyberspace 
+while he works on a new telecommunications product at AMIX, a 
+subsidiary of Autodesk. He can be reached via Usenet as 
+randy@xanadu.com or through the Journal BBS.
+
+	&quot;Golden Vaporware&quot; is a term I've heard Ted Nelson(2) use to 
+describe such exciting computer projects as Xanadu, Dynabook and 
+Cyberspace. I understood the term to mean Really-Great-Stuff-That-
+People-Are-(Sort-Of)-Working-On-And-Never-Ship.  But now, it 
+seems,  &quot;The Age Of Golden Vaporware&quot; has arrived. Ted's Xanadu 
+project is now well under way and should ship product in '90.  There 
+is a company called Dynabook Technologies that has released &quot;step 2&quot; 
+of the &quot;20 steps&quot;(3) to Alan Kay's vision of the ultimate laptop.  And 
+Cyberspace has been prototyped by QuantumLink and Lucasfilm.
+
+	These projects are likely to succeed not because they are 
+exciting to us techie-geeks, but because they have solid commercial 
+and technical foundations.  Here I will illustrate a path from current 
+software and hardware technologies to the Cyberspace that many of 
+us have dreamed of for almost 20 years.
+
+
+What is Cyberspace anyway?
+
+	&quot;Cyberspace&quot; is a fuzzily defined word that has been in the 
+press a lot recently(4)(at least in Silicon Valley).  Vernor Vinge first 
+described a vision of what might now be called Cyberspace in his 
+novella True Names(5). The hero of Vinges's story connected to &quot;The 
+Other Plane&quot; using EEG electrodes placed on the forehead. The Other 
+Plane was a place where complicated software systems were 
+represented by familiar objects.  The Max Headroom television show 
+used similar representations in various episodes.  Other fictional 
+treatments include William Gibson's Neuromancer (6), which has 
+been turned into a popular graphic adventure, and other 
+&quot;Cyberpunk&quot; novels. Here the vision of Cyberspace is based around 
+commercial and governmental network computer access, where 
+&quot;cowboys&quot; and &quot;wizards&quot; break in and wreak fiscal havoc. In these 
+works, Cyberspace is a metaphor for abstract concepts.
+
+	Autodesk, maker of the best selling AutoCAD system, has 
+thrown its hat into the Cyberspace ring where it joins VPL's Jaron 
+Lanier and NASA-AMES. All of these products share similar base 
+technologies and assumptions: two head-mounted TV monitors for 
+stereo imaging, a powerful computer, and a 3D input device like 
+VPL's DataGlove. They are primarily single user systems, and, in the 
+case of at least Autodesk's product, probably aimed at CAD users who 
+want to edit drawings in three dimensions. There are many other 
+applications, but discussion is beyond the scope of this article. The 
+key to all of these systems is enough computer power to do  double-
+buffered stereoscopic real-time graphics at a high frame rate (say 
+20-30 frames/second). This technology is expensive: in the case of 
+VPL's &quot;virtual reality&quot; system (their special two user version) the 
+price tag weighs in at $69,925. The &quot;Eyephones&quot; cost $9,400 and the 
+glove $8,800.(7) These companies envision Cyberspace as a new kind 
+of user interface.
+
+	To me, Cyberspace is a place, not just an interface or a 
+metaphor. A place where people, regardless of location, hardware, or 
+purpose can get together in a participatory experience to conduct 
+business, socialize, or have a good game of SpaceCombat9.6.
+
+	Why this vision instead of the others?  People.  Unlike the 
+interactions with artificial personalities created for computer 
+adventure games, Cyberspace interactions could create relationships 
+that are &quot;greater than the sum of their parts&quot;.  Here the consequences 
+of individual actions take on a greater significance because they 
+affect the world of, and the personal belongings of the other 
+participants.  Because Cyberspace will be so malleable,  each 
+individual can &quot;make a dent&quot;(8) and participate in its ongoing 
+creation and adaptation.
+
+	This is not speculation! During Habitat's beta test, several social 
+institutions sprang up spontaneously: There were marriages and 
+divorces, a church (complete with a real-world Greek Orthodox 
+minister), a loose guild of thieves, an elected sheriff (to combat the 
+thieves), a  newspaper (with a rather eccentric editor), and before 
+long two lawyers hung up their shingle to sort out claims.  And this 
+was with only about 150 people! My vision encompasses tens of 
+thousands of simultaneous participants.
+
+
+How can it work?
+	There are several major problems facing a large-scale 
+Cyberspace system: Bandwidth, Graphic Resolution, User Interface 
+Standards, Event Integrity, Data Communications Standards, and 
+Computer Horsepower.
+
+	Bandwidth is the most overrated problem. Everybody thinks 
+you need to send megabytes of data every minute to each user in 
+order to make Cyberspace work. This is simply not true. Habitat 
+works at a mere 300 baud. The keys to keeping bandwidth down are 
+distributed processing (having the local computer do most of the 
+display and interface work), object oriented command messages, and 
+avoiding communication intensive graphics primitives (such as those 
+associated with NAPLPS, that slower-than-molasses protocol they use 
+for Prodigy and other Videotex systems).
+
+	Graphic Resolution, User Interface and Local Horsepower issues 
+should all be lumped together.  To be viable over time, Cyberspace 
+must be designed with the &quot;to each according to his abilities&quot; 
+principle. If a C64 with NTSC TV and joystick-only interface 
+encounters a 60 megahertz 486 user with Eyephones and DataGlove, 
+the interaction should be filtered so that each user can have a 
+satisfying experience (e.g the C64 user doesn't see all the intricate 
+detail the 486er has put into his attire, and all people walk exactly 
+the same, but they can still sit, chat, and play a nice game of 
+Strattagema.)
+
+	Event Integrity is a side effect of distributed processing. Simply 
+put: you can't trust the home computer. Hackers have all the time in 
+the world to crack the software and make it send messages it 
+shouldn't. This is akin to the long debated copy protection problem, 
+but comes with its own unique solution: The Host. Since the host is 
+the final arbiter of all events, it should be programmed at a very 
+high level to reject bad messages.
+
+	Data Communications Standards are key to the future viability 
+of Cyberspace. A protocol is required that is efficient and forward 
+looking,  with hooks for future revisions (as bandwith increases) and 
+data encryption. Anything that is going to be used for business will 
+need to transmit its data securely for protection against espionage.  
+Also, the standard needs to address such issues as Email and  
+gateways to those entrenched text-only systems.  I want to read my 
+Usenet mail printed on a sheet of paper in my Cyberhand!
+
+	Since the host coordinates all activity for all users, Host 
+Horsepower is by far the most critical issue. For the first few years of 
+operations, Cyberspace will have a single centralized host consisting 
+of several connected multi-processing computers.  In order to keep 
+overhead to a minimum, bandwidth and database access will need to 
+be tightly limited.  The communications protocol will need to be 
+super efficient and messages must be kept tiny.  Eventually there 
+will be several independent Cyberspaces, perhaps on LANs or a 
+larger BBS. Of course, while you are walking around in your office 
+Cyberspace, you might want to go to other Cyberspaces, so a 
+distributed host model will need to be designed.  By not having a 
+central host keep track of everything and everyone, this distributed 
+model will actually decrease the load on each host. This will allow 
+Cyberspace to take on a few interesting features: 1) Each host can be 
+a different kind of place, with different 'rules' (e.g. A role-playing 
+Cyberhost would probably have monsters, combat rules -including 
+character death- and a no-holds-barred policy about participant 
+behavior whereas an office Cyberhost would have access protection 
+and wouldn't allow personal combat of any type), 2) Increased 
+capacity without loss of access, and 3) Faster growth.
+
+When will it happen?
+
+	Rather than pin a date on my Cyberverse, I will outline a 
+possible implementation path, including all of the developments 
+publicly announced to date.
+
+Event: Spring 1989 &quot;Habitat&quot; A.K.A. &quot;The Poor Man's Cyberspace&quot;
+	Ship Low End Prototype:
+		Third person, 2D, Low resolution, Low bandwidth,
+		multi-user Cyberspace with joystick/keyboard interface
+		Purpose: Entertainment
+
+Event: Fall? 1990 &quot;CyberCad&quot;
+	Ship commercial CAD version of Cyberspace Interface
+		Eyephones, DataGlove/DataSuit. First person, single-user
+		3D graphics (wire frame on small computers).
+		Purpose: Commercial CAD
+		
+Event: AT&amp;T starts installing nationwide ISDN(9), promises 
+installation
+	by 2001 (this should drive bandwidth to 1.5gigabits/second!)
+Event: 'DataGlove, the cheap version' arrives.
+Event: 9600/19.2k baud modems &lt;$100 dollars
+Event: A Cyberspace team defines the first Cyberspace Data and 
+	Communications Standards (an event they will regret later
+	when this interim hack becomes the defacto standard)
+Event: 486/68040 50+ megahertz computers sell for &lt;$1000 dollars.
+
+Event: (about 1995) &quot;Cyberverse 1.0&quot; (U.S.? Japan?)
+	Ship first multi-purpose Cyberspace universe
+		Eyephones optional, mouse or glove required
+		Local data stored on high density media (CDROM?)
+		9600baud minimum speed, LAN version available.
+		(host still required)
+
+Event: Computers get 10X faster and 10X more memory/storage.
+Ongoing event: AT&amp;T still installing ISDN
+Event: (about 2000) Japan completes ISDN installation, selling
+	ISDN 'modems' cheap!
+Event: First 'cracker' group has successfully done measurable
+	damage to the global Cyberverse.
+	The back doors are all closed. Or are they?
+Event: After cursing the original Cyberdesigners for several years
+	now, the Data and Comm standards are updated to support.
+	multi- and distributed-host models. Massive testing required.
+Event: First suicide attributed, by the media, to a game played while
+	in Cyberspace.
+Event: First combination television/phone/computer successfully 
+	mass marketed??
+
+Event: (about 2000) &quot;Cyberverse 2.0&quot;
+	Ship distributed host version
+		Supports latest user interface hardware (optionally).
+		Now a host is not required.
+
+Event: (about 2010) AT&amp;T finally completes ISDN. Wall size 
+	videophone reaching suburban markets (10-20 years late?)
+Event: Congress takes significant note of the Cyberverse, because
+	trade unions (and other lobbies) note significant
+	changes in the distribution of political power.
+	First Cyberspace lobby arrives in Washington.
+Event:10-20% of Americans spend over 4 hours per day &quot;on the
+	Other Side&quot;. First chapter of Mothers Against Cyberspace
+	forms, claims 'Junior' never goes out to playI
+	(We gotta think about this stuff too, ya know!)
+
+Event: (the Future) &quot;Cyberverse 3.0&quot; A.K.A. &quot;The Big Payoff&quot;
+	Distribute version 3.0 via Cybersoft retail outlets in Cyberspace
+		100,000+baud, allowing life-like personalizations
+		EEG direct input? Hologram Video? Retinal Projection?
+		Full Body digitizing? Forced feedback?
+		Voice input/output? World access via remote-robots?
+		
+
+Farmer, you're full of Cybercrud!(10)
+
+	Oh, yeah? A 386/CDROM version of Habitat will soon be 
+released in Japan.  Other foreign companies are also interested in this 
+technology, and some are talking about multi-machine support, 
+standards, and the future.  My only fear is that the long-term nature 
+of this project will cause American companies to shy away, and let 
+yet another new technology be monopolized by other, more forward-
+looking nations.
+
+(1)Credit where credit is due: Chip Morningstar was original designer 
+and leader of the Habitat project. Aric Wilmunder was the other 
+primary C64 programmer. Janet Hunter did most of the Host work. I 
+was also chief operator and world builder. Habitat has not yet been 
+released in its complete form (it will in Japan in '90). For a taste of a 
+much-scaled-down version, check out Club Caribe on QuantumLink 
+(you'll need a C64 &amp; software). Call 800-782-2278 for details.
+(2) Nelson, Theodor, Standard Public Xanadu Speech. Xanadu is the 
+name of the original mega-hypertext product.
+(3) Khosla, Vinod, of Dynabook Technologies quoted in Bay Area 
+Computer Currents &quot;Dynabook! Dynamite?&quot; Vol 7,#4 pp 22-24.
+(4) Laurel, Brenda, mentions Cyberspace in &quot;New Interfaces for 
+Interactive Entertainment&quot; in Vol 2, #5 of The Journal of Computer 
+Game Design.
+(5) Vinge, Vernor, &quot;True Names&quot; republished in an anthology &quot;True 
+Names and Other Dangers&quot; (mandatory reading for would-be 
+Cyberhacks)
+(6) Gibson, William, &quot;Neuromancer&quot;  (recommended reading)
+7)Nix, Shan, interviews Jaron Lanier of VPL in The San Fransisco 
+Chronicle, &quot;Welcome to the World of Hyper-Reality&quot; early August 
+1986, pp B1,B6
+(8) ibid
+(9)ISDN:Integrated Services Digital Network: instead of converting 
+digital data to analog (via modem) and back again, digital data is 
+dropped directly on to phone lines. Maximum throughput of full scale 
+fiber-optic ISDN is 1 to 6 gigabits/second or more. Several foreign 
+countries have made ISDN a national priority.
+(10)Nelson, Theodor: Computer Lib/Dream Machines Microsoft Press 
+Revised Edition 1987 pp 27-29
+
+----------------------------------------------------------------------------
+Well, there you have it, my first published article :-). All comments welcome.
+
+Don't pay too much attention to the timeline, it's meant mostly to point
+out that there are no real technical barriers to this vision, and the future
+should only see the kind of improvments we've seen with computers: Faster,
+Bigger, and more Resolution.
+
+
+
+
+
+
+
+�</pre>
+</div>
+<div created="20190514051826991" modified="20190514052202383" tags="worldbuilding fate writing" title="Detailed character sheet" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>&lt;&lt;&lt;
+&quot;Quote about.”  
+
+—Speaker
+&lt;&lt;&lt;
+
+| !Aliases| |
+| !Species| |
+| !Sex| |
+| !Age| |
+
+| !Ethnic group| |
+| !Nationality| |
+| !Occupation| |
+| !Marital status| |
+| !Known relatives| |
+| !Base of operations| |
+| !Status| |
+
+| !Height| |
+| !Weight| |
+| !Hair color| |
+| !Eye color| |
+| !Religion| |
+| !Education| |
+| !Abilities| |
+| !Equipment| |
+| !Major incidents| |
+| !Adversaries| |
+| !Affiliates| |
+| !Group| |
+| !Faction| |
+| !Organization| |
+| !Created by| |
+| !Appearances| |
+| !First appearance| |
+
+---
+
+! Identity
+
+&lt;!-- For stories and characters in which identity is a central theme: methods to conceal, physical and psychological reasons, consecuences, etc. --&gt;
+
+! Career timeline
+
+&lt;!-- Brief overview of when they started their escapades to current times. Anything that doesn't relate to the focus is irrelevant. --&gt;
+
+!! YYYYs
+
+!!! Title
+
+&lt;!-- Chronological dates. Brief explanation of events. --&gt;
+
+! Legacy
+
+&lt;!-- What is the lasting impression of the character in the world? --&gt;
+
+! Relationships
+
+!! Romantic
+
+!! Friendships
+
+!! Relatives
+
+!! Allies
+
+!! Adversaries
+
+! Gallery and quotes
+
+&lt;!-- Images of the character. --&gt;
+
+&lt;!-- Quotes by and or about the character. --&gt;
+
+! Trivia
+
+&lt;!-- Near-irrelevant tidbits of lore pertaining to the character that are too frivolous to fit into history, personality or other relevant categories. --&gt;
+
+! Behind the scenes
+
+&lt;!-- Why the character was created, what purpose they serve, meta-information as to decisions with the character. --&gt;
+
+!! Development
+
+&lt;!-- How the character was made. --&gt;
+
+! See also
+
+&lt;!-- Links to relevant pages of the character, such as antagonists, others who assume their identity, etc. --&gt;
+
+! Notes and references
+
+&lt;!-- Endnotes --&gt;</pre>
+</div>
+<div color="#8d8600" created="20190513001952135" modified="20190513001953207" title="drafts" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre></pre>
 </div>
 <div created="20190512151804024" modified="20190512151817989" tags="wiki" title="e-" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -9759,7 +10628,13 @@ Para mí, la conclusión más relevante a la que llegué en el pasado sigue sien
 
 Vogel, Amos (2016). //El cine como arte subersivo// (pp. 21-23). Mexico: Documental Ambulante, A.C. / Secretaría de Cultura.</pre>
 </div>
-<div color="#000000" created="20190512070301649" modified="20190512202238889" tags="cyberculture fractal() drafts projects" title="fractal()" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20190514052658177" modified="20190514052726764" tags="bookmarks programming technology software" title="End-user programming" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>[[https://www.inkandswitch.com/end-user-programming.html]]</pre>
+</div>
+<div created="20190514051621852" modified="20190514052122248" title="fate" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>&lt;&lt;list-links &quot;[tag[fate]sort[]]&quot;&gt;&gt;</pre>
+</div>
+<div color="#000000" created="20190512070301649" creator="@jarxg" modified="20190513060743091" modifier="@jarxg" tags="cyberculture fractal() drafts projects" title="fractal()" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>''fractal()'' (i.e. &quot;fractal function&quot;) is a multi/interdisciplinary project I'll start shaping in this [[wikiblog]] and [[other places|https://instagram.com/fractalfunction]], a collection / collage of ~~[[cyber]]~~cultural particles and practices.
 
 &lt;div style=&quot;width:100%;height:0;padding-bottom:100%;position:relative;&quot;&gt;&lt;iframe src=&quot;https://giphy.com/embed/ZGCVrgDRTnhEDUhZPm&quot; width=&quot;100%&quot; height=&quot;100%&quot; style=&quot;position:absolute&quot; frameBorder=&quot;0&quot; class=&quot;giphy-embed&quot; allowFullScreen&gt;&lt;/iframe&gt;&lt;/div&gt;
@@ -9775,20 +10650,8 @@ First and foremost, as entries in this wikiblog, tagged under the tag &lt;&lt;ta
 
 ([[YouTube link|https://www.youtube.com/watch?v=YppnMejOYjY]])</pre>
 </div>
-<div created="20190508170053285" modified="20190510184009980" tags="learning" title="learning new things" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>Things I'm learning right now:
-
-* ''Fate Core'': A narrative-driven tabletop RPG system.
-* ''~JavaScript'': Been learning for a long time. Time to really apply myself, I guess. p5.js is the library I use the most.
-* ''Processing'': Same as ~JavaScript. I've been working on some PDFs with printing in mind.
-* ''~TiddlyWiki'': This very thing you are staring at right now.</pre>
-</div>
-<div created="20190511060024030" modified="20190512201758803" tags="toc" title="My places" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>This [[wikiblog]] can be found at [[https://jarxg.github.io]] and [[https://jarxg.glitch.me]].
-
-Sometimes I commit stuff to a few repositories at [[Github|https://github.com/jarxg]]. Some of them are gathering dust and I plan on changing that.
-
-I use [[Instagram|http://instagram.com/jarxg]]. Sometimes I archive and unarchive posts just to keep things interesting, so make sure to take a look every once in a while. Or don't.</pre>
+<div color="#61177c" created="20190514045058900" modified="20190514045107256" title="journal" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre></pre>
 </div>
 <div created="20190510063702408" modified="20190511061452137" tags="videos cyberculture cyberpunk writers people bookmarks" title="No Maps For These Territories" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&lt;iframe src=&quot;https://archive.org/embed/NoMapsForTheseTerritories&quot; width=&quot;640&quot; height=&quot;480&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; allowfullscreen&gt;&lt;/iframe&gt;
@@ -9800,7 +10663,10 @@ I use [[Instagram|http://instagram.com/jarxg]]. Sometimes I archive and unarchiv
 
 Nona was born in 2014 and I got her when she was a couple months old. She was the last one from her litter and I consider that to be a smile from fortune.</pre>
 </div>
-<div color="#375719" created="20190512202538380" modified="20190512202550522" title="published" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div color="#aaaaaa" created="20190514045113664" modified="20190514045114753" title="notebook" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre></pre>
+</div>
+<div color="#375719" created="20190513001947662" modified="20190513001948735" title="published" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre></pre>
 </div>
 <div created="20190509071630799" modified="20190512202150320" tags="programming" title="quine" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -9880,23 +10746,58 @@ print((lambda s:s%s)('print((lambda s:s%%s)(%r))'))
 s='disp(char([115,61,39,s,39,59,s]));';disp(char([115,61,39,s,39,59,s]));
 ```</pre>
 </div>
-<div created="20190512011354851" creator="@jarxg" modified="20190512202138741" modifier="@jarxg" tags="books reading" title="Reading list" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>I'm still thinking about how to organize this part of my site...</pre>
+<div created="20190512011354851" creator="@jarxg" modified="20190513005234448" modifier="@jarxg" tags="books reading" title="Reading list" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>I'm still thinking about how to organize this part of the site...</pre>
+</div>
+<div created="20190514044613980" modified="20190514044737949" tags="" title="Table of contents" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>&lt;&lt;list-links &quot;[tag[toc]sort[]]&quot;&gt;&gt;</pre>
 </div>
 <div created="20190509194813759" modified="20190511062453718" tags="writers people cyberculture bookmarks" title="Ted Nelson's Homepage" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>[[http://www.thetednelson.com]]
 
 The father of all of this.</pre>
 </div>
-<div created="20190512201939885" modified="20190512202351201" tags="bookmarks cyberpunk cyberculture capitalism philosphy videos" title="The Cultural Significance of Cyberpunk" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20190512201939885" modified="20190514045200098" tags="philosophy bookmarks cyberpunk cyberculture capitalism videos" title="The Cultural Significance of Cyberpunk" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Nvor7hhDKTs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</pre>
 </div>
-<div created="20190509195427041" modified="20190509195630066" tags="usesthis notebook wiki drafts" title="Things I use" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>A list of the stuff that I use inspired by [[Uses This|https://usesthis.com]].
+<div created="20190509195427041" modified="20190513005102022" tags="usesthis notebook wiki drafts" title="Things I use" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>A list of the stuff that I use. Inspired by [[Uses This|https://usesthis.com]].
 
-Coming soon. :)</pre>
+!! Hardware
+
+* Apple ~MacBook Pro 13&quot; mid-2012
+* Fender Stratocaster MIJ '85/'86
+* Focusrite Scarlett 2i2
+* Boss DD-7 Digital Delay
+* Boss DS-2 Super Distortion
+
+!! Software
+
+* Ableton Live Lite
+* Apple ~GarageBand (macOS &amp; iOS)
+* Hydra
+* Processing
+* Renoise
+* ~SunVox
+* ~TidalCycles
+* VCV Rack</pre>
 </div>
-<div color="#94e4fe" created="20190512202600615" modified="20190512202605484" title="toc" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20190508170053285" modified="20190514160130761" tags="toc" title="Things I'm currently into" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>* ''[[Cyberculture|cyberculture]]'' and ''[[cyberpunk]] narratives''.
+* ''[[Fate|fate]] Core'', narrative-driven tabletop RPG system.
+* ''Interactive fiction''(s).
+* ''~JavaScript / p5.js''.
+* ''Processing'': I've been working on some PDFs with printing in mind.
+* ''Simulation theories''.
+* ''~TiddlyWiki''.</pre>
+</div>
+<div created="20190513005410145" creator="@jarxg" modified="20190513010016681" modifier="@jarxg" tags="wiki" title="TiddlyWiki" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>&lt;&lt;&lt;
+''~TiddlyWiki'' is a personal wiki and a non-linear notebook for organising and sharing complex information. It is an open-source single page application wiki in the form of a single HTML file that includes CSS, ~JavaScript, and the content. It is designed to be easy to customize and re-shape depending on application. It facilitates re-use of content by dividing it into small pieces called //Tiddlers//.
+&lt;&lt;&lt;
+</pre>
+</div>
+<div color="#94e4fe" created="20190513001926730" modified="20190513001940139" title="toc" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre></pre>
 </div>
 <div created="20190511060319206" modified="20190511061857151" tags="cyberpunk cyberculture bookmarks videos music" title="Welcome to Cyberia" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -9908,6 +10809,19 @@ Coming soon. :)</pre>
 Focuses on the newly created counter-culture of the 1990s, rave culture, house music and hacking, where forbidden thought and radical action is opened up to a broader base than ever before. Topics include: mind-expanding uses of the computer; Genesis P-Orridge; new drug ecstasy; underground press &amp; R.U. Sirius; culture jamming with disinformation; big corporations use images of the rebel culture for profit.
 &lt;&lt;&lt;
 </pre>
+</div>
+<div created="20190511060024030" modified="20190514051139901" tags="toc" title="Where am I?" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>This [[wikiblog]] can be found at [[https://jarxg.github.io]] and [[https://jarxg.glitch.me]].
+
+Sometimes I commit stuff to a few repositories at [[GitHub|https://github.com/jarxg]]. Some of them are gathering dust and I plan on changing that.
+
+I use [[Instagram|http://instagram.com/jarxg]]. Sometimes I archive and unarchive posts just to keep things interesting, so make sure to take a look every once in a while. Or don't.</pre>
+</div>
+<div color="#7c2900" created="20190513002010066" modified="20190513002031771" title="wiki" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre></pre>
+</div>
+<div created="20190513005823331" creator="@jarxg" modified="20190513005854114" modifier="@jarxg" tags="wiki" title="wikiblog" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>...a blog is a wiki is a blog is a wiki...</pre>
 </div>
 
 </div>
