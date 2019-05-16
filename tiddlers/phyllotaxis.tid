@@ -1,0 +1,15 @@
+created: 20190514222037149
+modified: 20190514222208317
+tags: javascript programming [[creative coding]]
+title: phyllotaxis
+type: text/vnd.tiddlywiki
+
+<!-- Copy and Paste Me -->
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    src="https://glitch.com/embed/#!/embed/phyllotaxis?path=script.js&previewSize=0"
+    alt="phyllotaxis on Glitch"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>

@@ -2,7 +2,7 @@ color: #00fdff
 created: 20190508135554603
 creator: @jarxg
 list: 
-modified: 20190514214343439
+modified: 20190514220820925
 modifier: @jarxg
 tags: @jarxg
 title: @jarxg
@@ -26,11 +26,7 @@ site, the artist's URL is the only guarantor that one is viewing the
 
 [img[files/images/jarxg.gif]]
 
-Hi, I'm @jarxg and this is my personal wikiblog. 
-
-I am the dad of a five year old boston terrier called [[Nona]].
-
-You can use the sidebar to navigate this site. Here are some links to the main pages:
+Hi, I'm @jarxg and this is my personal wikiblog. I am the dad of a five year old boston terrier called [[Nona]].
 
 <<list-links "[tag[toc]sort[]]">>
 

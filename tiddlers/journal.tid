@@ -1,6 +1,8 @@
-color: #61177c
+color: #008cb4
 created: 20190514045058900
-modified: 20190514045107256
-title: journal
+modified: 20190514220302099
+tags: toc
+title: Journal
 type: text/vnd.tiddlywiki
 
+<<toc [[Journal]]>>
