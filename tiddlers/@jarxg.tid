@@ -2,11 +2,13 @@ color: #00fdff
 created: 20190508135554603
 creator: @jarxg
 list: 
-modified: 20190514220820925
+modified: 20190518013159667
 modifier: @jarxg
 tags: @jarxg
 title: @jarxg
 type: text/vnd.tiddlywiki
+
+[img[jarxg.gif]]
 
 <!--
    ____   _
@@ -24,12 +26,10 @@ site, the artist's URL is the only guarantor that one is viewing the
 ––Greene, R. (2004). Internet art. New York, NY: Thames & Hudson.
 -->
 
-[img[files/images/jarxg.gif]]
-
-Hi, I'm @jarxg and this is my personal wikiblog. I am the dad of a five year old boston terrier called [[Nona]].
+Hi, I'm @jarxg and this is my personal [[wikiblog]]. I am the dad of a five year old boston terrier called [[Nona]].
 
 <<list-links "[tag[toc]sort[]]">>
 
 ---
 
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.

@@ -1,0 +1,10 @@
+color: #e392ff
+created: 20190518013148454
+modified: 20190518014038812
+tags: toc
+title: Art
+type: text/vnd.tiddlywiki
+
+!! Collage
+
+<<list-links "[tag[collages]sort[title]]">>
