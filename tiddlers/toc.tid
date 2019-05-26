@@ -1,6 +1,7 @@
-color: #94e4fe
+color: #929292
 created: 20190513001926730
-modified: 20190513001940139
+modified: 20190526153547280
 title: toc
 type: text/vnd.tiddlywiki
 
+<<list-links "[tag[toc]sort[]]">>
