@@ -1,9 +1,16 @@
 ---
+title: index
 layout: default
 ---
 
-[](https://instagram.com/jarxg)
+Under ((re)/(de))construction.
 
-[](https://twitter.com/jarxg)
+<!--
+# Blog
 
-[](https://jarxg.bandcamp.com)
+[Atom feed](feed.xml)
+
+{% for post in site.posts %}
+  [{{ post.date | date_to_string }} - {{ post.title }}]({{ post.url }})
+{% endfor %}
+-->
